@@ -5,11 +5,11 @@ public class Graph {
     /**.
      * { vertices }
      */
-    private final int Ver;
+    private final int ver;
     /**.
      * { edges }
      */
-    private int Edg;
+    private int edg;
     /**.
      * { adj }
      */
@@ -19,11 +19,11 @@ public class Graph {
      *
      * @param      V     { vertices }
      */
-    public Graph(int Ver1) {
-        if (Ver1 < 0) throw new IllegalArgumentException("Too few vertices");
-        this.Ver = Ver1;
-        this.Edg = 0;
-        this.adj = new boolean[Ver][Ver];
+    public Graph(int ver1) {
+        if (ver1 < 0) throw new IllegalArgumentException("Too few vertices");
+        this.ver = ver1;
+        this.edg = 0;
+        this.adj = new boolean[ver][ver];
     }
     /**
      * { vertices }.
@@ -31,7 +31,7 @@ public class Graph {
      * @return     { count of vertices }
      */
     public int Ver() {
-        return Ver;
+        return ver;
     }
     /**.
      * { edges }
@@ -39,7 +39,7 @@ public class Graph {
      * @return     { count }
      */
     public int Edg() {
-        return Edg;
+        return edg;
     }
     /**
      * Adds an edge.
@@ -48,7 +48,7 @@ public class Graph {
      * @param      w     { w }
      */
     public void addEdge(int v, int w) {
-        if (!adj[v][w]) Edg++;
+        if (!adj[v][w]) edg++;
         adj[v][w] = true;
         adj[w][v] = true;
     }
@@ -60,17 +60,17 @@ public class Graph {
      *
      * @return     { description_of_the_return_value }
      */
-    public boolean contains(int v, int w) {
+    public boolean contains(final int v, final int w) {
         return adj[v][w];
     }
     /**
-     * { adjecent }
+     * { adjecent }.
      *
      * @param      v     { v }
      *
      * @return     { adjecent keys }
      */
-    public Iterable<Integer> adj(int v) {
+    public Iterable<Integer> adj(final int v) {
         return new AdjIterator(v);
     }
     /**
@@ -88,10 +88,10 @@ public class Graph {
         /**
          * Constructs the object.
          *
-         * @param      v     { v }
+         * @param      v1     { v }
          */
-        AdjIterator(int v) {
-            this.v = v;
+        AdjIterator(final int v1) {
+            this.v = v1;
         }
         /**
          * { iterator }.
@@ -107,8 +107,10 @@ public class Graph {
          * @return     True if has next, False otherwise.
          */
         public boolean hasNext() {
-            while (w < Ver) {
-                if (adj[v][w]) return true;
+            while (w < ver) {
+                if (adj[v][w]) {
+                    return true;
+                }
                 w++;
             }
             return false;
@@ -125,6 +127,9 @@ public class Graph {
             return w++;
         }
 
+        /**
+         * { function_description }.
+         */
         public void remove()  {
             throw new UnsupportedOperationException();
         }
@@ -136,8 +141,8 @@ public class Graph {
      */
     public String toString() {
         StringBuilder s = new StringBuilder();
-        s.append(Ver + " " + Edg + NEWLINE);
-        for (int v = 0; v < Ver; v++) {
+        s.append(ver + " " + edg + NEWLINE);
+        for (int v = 0; v < ver; v++) {
             s.append(v + ": ");
             for (int w : adj(v)) {
                 s.append(w + " ");
