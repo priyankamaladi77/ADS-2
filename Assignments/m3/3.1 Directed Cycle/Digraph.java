@@ -3,15 +3,15 @@
  */
 public class Digraph {
     /**
-     * { var_description }
+     * { vertices of type int}.
      */
     private final int vertices;
     /**
-     * { var_description }
+     * { edges of type int }.
      */
     private int edges;
     /**
-     * { var_description }
+     * { adj array of type bag }.
      */
     private Bag<Integer>[] adj;
     /**
@@ -19,7 +19,7 @@ public class Digraph {
      *
      * @param  ver1  the number of vertices
      */
-    public Digraph(int ver1) {
+    public Digraph(final int ver1) {
         this.vertices = ver1;
         this.edges = 0;
         adj = new Bag[vertices];
@@ -29,7 +29,7 @@ public class Digraph {
     }
     /**
      * Returns the number of vertices in this digraph.
-     *
+     * Time complexity is constant.
      * @return the number of vertices in this digraph
      */
     public int vertices() {
@@ -38,7 +38,7 @@ public class Digraph {
 
     /**
      * Returns the number of edges in this digraph.
-     *
+     * Time complexity is constant.
      * @return the number of edges in this digraph
      */
     public int edges() {
@@ -47,24 +47,24 @@ public class Digraph {
 
     /**
      * Adds the directed edge v→w to this digraph.
-     *
+     * Time complexity is constant.
      * @param      v     the tail vertex
      * @param      w     the head vertex
      */
-    public void addEdge(int v, int w) {
+    public void addEdge(final int v, final int w) {
         adj[v].add(w);
         edges++;
     }
 
     /**
-     * Returns the vertices adjacent from vertex {@code v} in this digraph.
-     *
+     * Returns the vertices adjacent from vertex v in this digraph.
+     * Time complexity is constant.
      * @param      v     the vertex
      *
-     * @return     the vertices adjacent from vertex {@code v} in this digraph,
+     * @return     the vertices adjacent from vertex v in this digraph,
      *             as an iterable
      */
-    public Iterable<Integer> adj(int v) {
+    public Iterable<Integer> adj(final int v) {
         return adj[v];
     }
 }
