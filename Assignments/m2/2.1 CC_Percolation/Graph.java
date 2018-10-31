@@ -29,9 +29,9 @@ public class Graph {
     /**
      * Constructs the object.
      *
-     * @param      Ver1    { vertices }
+     * @param      ver1    { vertices }
      */
-    public Graph(int ver1) {
+    public Graph(final int ver1) {
         if (ver1 < 0) {
             throw new IllegalArgumentException("Too few vertices");
         }
