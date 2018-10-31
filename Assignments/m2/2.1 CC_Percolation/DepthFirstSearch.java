@@ -15,7 +15,7 @@ class DepthFirstPaths {
      */
     private final int s;
     /**
-     * Constructs the object.
+     * Constructs the object for DepthFirstPaths.
      *
      * @param      g     { graph }
      * @param      s1     { start }
@@ -44,7 +44,7 @@ class DepthFirstPaths {
     }
     /**
      * Determines if it has path to.
-     *
+     * Time complexity is constant.
      * @param      v     { vertex }
      *
      * @return     True if has path to, False otherwise.

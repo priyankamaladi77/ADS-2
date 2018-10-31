@@ -28,7 +28,7 @@ public class Graph {
     private boolean[][] adj;
     /**
      * Constructs the object for graph.
-     *
+     * 
      * @param      ver1    { vertices }
      */
     public Graph(final int ver1) {
@@ -40,24 +40,24 @@ public class Graph {
         this.adj = new boolean[ver][ver];
     }
     /**
-     * { vertices }.
-     *
-     * @return     { count of vertices }
+     * {no.of vertices}.
+     * Time complexity is constant as it executes only once.
+     * @return {returns count of vertices }
      */
     public int ver() {
         return ver;
     }
-    /**.
-     * { edges }
-     *
-     * @return     { count }
+    /**
+     * { no of edges }.
+     *  Time complexity is constant as it executes only once.
+     * @return returns count of edges.
      */
     public int edg() {
         return edg;
     }
     /**
-     * Adds an edge.
-     *
+     * Adds an edge between two vertices.
+     * Time complexity is constant as it executes only once.
      * @param      v     { v }
      * @param      w     { w }
      */
@@ -69,22 +69,22 @@ public class Graph {
         adj[w][v] = true;
     }
     /**
-     * { contains }.
+     * Checks whether the edge is present or not.
      *
      * @param      v     { v }
      * @param      w     { w }
      *
-     * @return     { description_of_the_return_value }
+     * @return returns true if edge occurs, otherwise false.
      */
     public boolean contains(final int v, final int w) {
         return adj[v][w];
     }
     /**
-     * { adjecent }.
+     * Gives the vertices adjacent to vertex v.
+     * Time complexity is degree of vertex.
+     * @param  v  { v }
      *
-     * @param      v     { v }
-     *
-     * @return     { adjecent keys }
+     * @return returns the vertices adjacent to vertex v.
      */
     public Iterable<Integer> adj(final int v) {
         return new AdjIterator(v);
@@ -93,12 +93,12 @@ public class Graph {
      * Class for adj iterator.
      */
     private class AdjIterator implements Iterator<Integer>, Iterable<Integer> {
-        /**.
-         * { v }
+        /**
+         * variable v of type int.
          */
         private int v;
-        /**.
-         * { w }
+        /**
+         * variable w of type int.
          */
         private int w = 0;
         /**
@@ -133,8 +133,8 @@ public class Graph {
         }
         /**.
          * { next }
-         *
-         * @return     { w }
+         * Time complexity is constant.
+         * @return returns w.
          */
         public Integer next() {
             if (!hasNext()) {
@@ -142,18 +142,11 @@ public class Graph {
             }
             return w++;
         }
-
-        /**
-         * { function_description }.
-         */
-        public void remove()  {
-            throw new UnsupportedOperationException();
-        }
     }
     /**
      * Returns a string representation of the object.
-     *
-     * @return     String representation of the object.
+     * Time complexity is O(N^2).
+     * @return returns String representation of the object.
      */
     public String toString() {
         StringBuilder s = new StringBuilder();
