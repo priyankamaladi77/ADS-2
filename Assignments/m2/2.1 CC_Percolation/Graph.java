@@ -5,11 +5,11 @@ public class Graph {
     /**.
      * { vertices }
      */
-    private final int V;
+    private final int Ver;
     /**.
      * { edges }
      */
-    private int E;
+    private int Edg;
     /**.
      * { adj }
      */
@@ -19,27 +19,27 @@ public class Graph {
      *
      * @param      V     { vertices }
      */
-    public Graph(int V) {
-        if (V < 0) throw new IllegalArgumentException("Too few vertices");
-        this.V = V;
-        this.E = 0;
-        this.adj = new boolean[V][V];
+    public Graph(int Ver1) {
+        if (Ver1 < 0) throw new IllegalArgumentException("Too few vertices");
+        this.Ver = Ver1;
+        this.Edg = 0;
+        this.adj = new boolean[Ver][Ver];
     }
     /**
      * { vertices }.
      *
      * @return     { count of vertices }
      */
-    public int V() {
-        return V;
+    public int Ver() {
+        return Ver;
     }
     /**.
      * { edges }
      *
      * @return     { count }
      */
-    public int E() {
-        return E;
+    public int Edg() {
+        return Edg;
     }
     /**
      * Adds an edge.
@@ -48,7 +48,7 @@ public class Graph {
      * @param      w     { w }
      */
     public void addEdge(int v, int w) {
-        if (!adj[v][w]) E++;
+        if (!adj[v][w]) Edg++;
         adj[v][w] = true;
         adj[w][v] = true;
     }
@@ -107,7 +107,7 @@ public class Graph {
          * @return     True if has next, False otherwise.
          */
         public boolean hasNext() {
-            while (w < V) {
+            while (w < Ver) {
                 if (adj[v][w]) return true;
                 w++;
             }
@@ -136,8 +136,8 @@ public class Graph {
      */
     public String toString() {
         StringBuilder s = new StringBuilder();
-        s.append(V + " " + E + NEWLINE);
-        for (int v = 0; v < V; v++) {
+        s.append(Ver + " " + Edg + NEWLINE);
+        for (int v = 0; v < Ver; v++) {
             s.append(v + ": ");
             for (int w : adj(v)) {
                 s.append(w + " ");
