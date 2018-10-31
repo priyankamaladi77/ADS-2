@@ -44,14 +44,6 @@ Starting audit...
 Audit done.
 Checkstyle ends with 8 errors.
 Starting audit...
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Percolation.java:5:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Percolation.java:14:50: ',' is preceded with whitespace. [NoWhitespaceBefore]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Percolation.java:14:52: ',' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Percolation.java:28:56: '&&' should be on a new line. [OperatorWrap]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Percolation.java:34:59: '&&' should be on a new line. [OperatorWrap]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Percolation.java:40:56: '&&' should be on a new line. [OperatorWrap]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Percolation.java:46:58: '&&' should be on a new line. [OperatorWrap]
 Audit done.
-Checkstyle ends with 7 errors.
 Starting audit...
 Audit done.
