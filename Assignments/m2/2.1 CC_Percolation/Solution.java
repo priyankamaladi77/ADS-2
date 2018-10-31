@@ -11,7 +11,7 @@ public final class Solution {
     }
     /**
      * main method.
-     * 
+     *
      *
      * @param      args  The arguments
      */

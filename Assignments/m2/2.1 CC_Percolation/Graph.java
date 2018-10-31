@@ -1,6 +1,12 @@
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+/**
+ * Class for graph.
+ */
 public class Graph {
+    /**
+     * { var_description }.
+     */
     private static final String NEWLINE = System.getProperty("line.separator");
     /**.
      * { vertices }
@@ -19,9 +25,11 @@ public class Graph {
      *
      * @param      V     { vertices }
      */
-    public Graph(int V) {
-        if (V < 0) throw new IllegalArgumentException("Too few vertices");
-        this.V = V;
+    public Graph(final int V1) {
+        if (V1 < 0) {
+            throw new IllegalArgumentException("Too few vertices");
+        }
+        this.V = V1;
         this.E = 0;
         this.adj = new boolean[V][V];
     }
@@ -47,8 +55,10 @@ public class Graph {
      * @param      v     { v }
      * @param      w     { w }
      */
-    public void addEdge(int v, int w) {
-        if (!adj[v][w]) E++;
+    public void addEdge(final int v, final int w) {
+        if (!adj[v][w]) {
+            E++;
+        }
         adj[v][w] = true;
         adj[w][v] = true;
     }
@@ -60,17 +70,17 @@ public class Graph {
      *
      * @return     { description_of_the_return_value }
      */
-    public boolean contains(int v, int w) {
+    public boolean contains(final int v, final int w) {
         return adj[v][w];
     }
     /**
-     * { adjecent }
+     * { adjecent }.
      *
      * @param      v     { v }
      *
      * @return     { adjecent keys }
      */
-    public Iterable<Integer> adj(int v) {
+    public Iterable<Integer> adj(final int v) {
         return new AdjIterator(v);
     }
     /**
@@ -88,10 +98,10 @@ public class Graph {
         /**
          * Constructs the object.
          *
-         * @param      v     { v }
+         * @param      v1     { v }
          */
-        AdjIterator(int v) {
-            this.v = v;
+        AdjIterator(final int v1) {
+            this.v = v1;
         }
         /**
          * { iterator }.
@@ -108,7 +118,9 @@ public class Graph {
          */
         public boolean hasNext() {
             while (w < V) {
-                if (adj[v][w]) return true;
+                if (adj[v][w]) {
+                    return true;
+                }
                 w++;
             }
             return false;
@@ -125,6 +137,9 @@ public class Graph {
             return w++;
         }
 
+        /**
+         * {removes}
+         */
         public void remove()  {
             throw new UnsupportedOperationException();
         }
