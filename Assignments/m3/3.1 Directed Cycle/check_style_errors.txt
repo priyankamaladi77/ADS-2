@@ -10,6 +10,5 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m3\3.1 Directed Cycle\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m3\3.1 Directed Cycle\Stack.java:137:9: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 2 errors.
+Checkstyle ends with 1 errors.
