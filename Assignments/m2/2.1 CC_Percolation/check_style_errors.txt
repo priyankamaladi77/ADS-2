@@ -33,16 +33,9 @@ Starting audit...
 Audit done.
 Checkstyle ends with 7 errors.
 Starting audit...
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:14:23: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:18:17: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:26:8: Unused @param tag for 'V'. [JavadocMethod]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:28:28: Expected @param tag for 'V1'. [JavadocMethod]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:28:28: Name 'V1' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:41:16: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:49:16: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:140: First sentence should end with a period. [JavadocStyle]
 Audit done.
-Checkstyle ends with 8 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 Audit done.
 Starting audit...

@@ -11,11 +11,11 @@ public class Graph {
     /**.
      * { vertices }
      */
-    private final int V;
+    private final int vertices;
     /**.
      * { edges }
      */
-    private int E;
+    private int edges;
     /**.
      * { adj }
      */
@@ -23,31 +23,31 @@ public class Graph {
     /**
      * Constructs the object.
      *
-     * @param      V     { vertices }
+     * @param      V1     { vertices }
      */
     public Graph(final int V1) {
         if (V1 < 0) {
             throw new IllegalArgumentException("Too few vertices");
         }
-        this.V = V1;
-        this.E = 0;
-        this.adj = new boolean[V][V];
+        this.vertices = V1;
+        this.edges = 0;
+        this.adj = new boolean[vertices][vertices];
     }
     /**
      * { vertices }.
      *
      * @return     { count of vertices }
      */
-    public int V() {
-        return V;
+    public int vertices() {
+        return this.vertices;
     }
     /**.
      * { edges }
      *
      * @return     { count }
      */
-    public int E() {
-        return E;
+    public int edges() {
+        return this.edges;
     }
     /**
      * Adds an edge.
@@ -57,7 +57,7 @@ public class Graph {
      */
     public void addEdge(final int v, final int w) {
         if (!adj[v][w]) {
-            E++;
+            edges++;
         }
         adj[v][w] = true;
         adj[w][v] = true;
@@ -117,7 +117,7 @@ public class Graph {
          * @return     True if has next, False otherwise.
          */
         public boolean hasNext() {
-            while (w < V) {
+            while (w < vertices) {
                 if (adj[v][w]) {
                     return true;
                 }
@@ -138,7 +138,7 @@ public class Graph {
         }
 
         /**
-         * {removes}
+         * {removes}.
          */
         public void remove()  {
             throw new UnsupportedOperationException();
@@ -151,8 +151,8 @@ public class Graph {
      */
     public String toString() {
         StringBuilder s = new StringBuilder();
-        s.append(V + " " + E + NEWLINE);
-        for (int v = 0; v < V; v++) {
+        s.append(vertices + " " + edges + NEWLINE);
+        for (int v = 0; v < vertices; v++) {
             s.append(v + ": ");
             for (int w : adj(v)) {
                 s.append(w + " ");
