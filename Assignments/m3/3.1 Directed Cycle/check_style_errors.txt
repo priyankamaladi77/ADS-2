@@ -1,4 +1,5 @@
 Starting audit...
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m3\3.1 Directed Cycle\Bag.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m3\3.1 Directed Cycle\Bag.java:13: Line has trailing spaces. [RegexpSingleline]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m3\3.1 Directed Cycle\Bag.java:14: Line has trailing spaces. [RegexpSingleline]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m3\3.1 Directed Cycle\Bag.java:17: Line has trailing spaces. [RegexpSingleline]
@@ -19,15 +20,12 @@ Starting audit...
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m3\3.1 Directed Cycle\Bag.java:71: Line has trailing spaces. [RegexpSingleline]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m3\3.1 Directed Cycle\Bag.java:75: Missing a Javadoc comment. [JavadocType]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m3\3.1 Directed Cycle\Bag.java:76:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m3\3.1 Directed Cycle\Bag.java:78: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m3\3.1 Directed Cycle\Bag.java:78:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m3\3.1 Directed Cycle\Bag.java:79: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m3\3.1 Directed Cycle\Bag.java:79:35: '{' at column 35 should have line break after. [LeftCurly]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m3\3.1 Directed Cycle\Bag.java:78:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m3\3.1 Directed Cycle\Bag.java:81: Line has trailing spaces. [RegexpSingleline]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m3\3.1 Directed Cycle\Bag.java:81:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m3\3.1 Directed Cycle\Bag.java:82: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m3\3.1 Directed Cycle\Bag.java:84: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m3\3.1 Directed Cycle\Bag.java:84: First sentence should end with a period. [JavadocStyle]
 Audit done.
-Checkstyle ends with 27 errors.
+Checkstyle ends with 25 errors.
 Starting audit...
 Audit done.
 Starting audit...
