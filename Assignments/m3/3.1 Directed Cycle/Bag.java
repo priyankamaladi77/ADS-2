@@ -1,5 +1,5 @@
-/*************************************************************************
- *  Compilation:  javac Bag.java
+/*************************************************************************.
+ *  Compilation:  javac Bag.java.
  *  Execution:    java Bag < input.txt
  *
  *  A generic bag or multiset, implemented using a linked list.
@@ -15,11 +15,11 @@ import java.util.NoSuchElementException;
  */
 public class Bag<Item> implements Iterable<Item> {
     /**
-     * { var_description }
+     * { var_description }.
      */
     private int n;
     /**
-     * { var_description }
+     * { var_description }.
      */
     private Node first;
 
@@ -28,11 +28,11 @@ public class Bag<Item> implements Iterable<Item> {
      */
     private class Node {
         /**
-         * { var_description }
+         * { var_description }.
          */
         private Item item;
         /**
-         * { var_description }
+         * { var_description }.
          */
         private Node next;
     }

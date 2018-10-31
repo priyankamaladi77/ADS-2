@@ -1,11 +1,7 @@
 Starting audit...
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m3\3.1 Directed Cycle\Bag.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m3\3.1 Directed Cycle\Bag.java:17: First sentence should end with a period. [JavadocStyle]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m3\3.1 Directed Cycle\Bag.java:21: First sentence should end with a period. [JavadocStyle]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m3\3.1 Directed Cycle\Bag.java:30: First sentence should end with a period. [JavadocStyle]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m3\3.1 Directed Cycle\Bag.java:34: First sentence should end with a period. [JavadocStyle]
 Audit done.
-Checkstyle ends with 5 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 Audit done.
 Starting audit...
