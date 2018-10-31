@@ -28,7 +28,7 @@ public class Graph {
     private boolean[][] adj;
     /**
      * Constructs the object for graph.
-     * 
+     *
      * @param      ver1    { vertices }
      */
     public Graph(final int ver1) {
