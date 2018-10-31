@@ -1,6 +1,18 @@
+/**
+ * imports Iterator package.
+ */
 import java.util.Iterator;
+/**
+ * imports NoSuchElementException package.
+ */
 import java.util.NoSuchElementException;
+/**
+ * Class for graph.
+ */
 public class Graph {
+    /**
+     * { var_description }.
+     */
     private static final String NEWLINE = System.getProperty("line.separator");
     /**.
      * { vertices }
@@ -17,10 +29,12 @@ public class Graph {
     /**
      * Constructs the object.
      *
-     * @param      V     { vertices }
+     * @param      Ver1    { vertices }
      */
     public Graph(int ver1) {
-        if (ver1 < 0) throw new IllegalArgumentException("Too few vertices");
+        if (ver1 < 0) {
+            throw new IllegalArgumentException("Too few vertices");
+        }
         this.ver = ver1;
         this.edg = 0;
         this.adj = new boolean[ver][ver];
@@ -30,7 +44,7 @@ public class Graph {
      *
      * @return     { count of vertices }
      */
-    public int Ver() {
+    public int ver() {
         return ver;
     }
     /**.
@@ -38,7 +52,7 @@ public class Graph {
      *
      * @return     { count }
      */
-    public int Edg() {
+    public int edg() {
         return edg;
     }
     /**
@@ -47,8 +61,10 @@ public class Graph {
      * @param      v     { v }
      * @param      w     { w }
      */
-    public void addEdge(int v, int w) {
-        if (!adj[v][w]) edg++;
+    public void addEdge(final int v, final int w) {
+        if (!adj[v][w]) {
+            edg++;
+        }
         adj[v][w] = true;
         adj[w][v] = true;
     }

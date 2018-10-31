@@ -17,28 +17,28 @@ class DepthFirstPaths {
     /**
      * Constructs the object.
      *
-     * @param      G     { graph }
-     * @param      s     { start }
+     * @param      g     { graph }
+     * @param      s1     { start }
      */
-    DepthFirstPaths(Graph G, int s1) {
+    DepthFirstPaths(final Graph g, final int s1) {
         this.s = s1;
-        edgeTo = new int[G.Ver()];
-        marked = new boolean[G.Ver()];
+        edgeTo = new int[g.ver()];
+        marked = new boolean[g.ver()];
         validateVertex(s);
-        dfs(G, s);
+        dfs(g, s);
     }
     /**
      * { dfs }.
      *
-     * @param      G     { graph }
+     * @param      g    { graph }
      * @param      v     { vertex }
      */
-    private void dfs(final Graph G, final int v) {
+    private void dfs(final Graph g, final int v) {
         marked[v] = true;
-        for (int w : G.adj(v)) {
+        for (int w : g.adj(v)) {
             if (!marked[w]) {
                 edgeTo[w] = v;
-                dfs(G, w);
+                dfs(g, w);
             }
         }
     }
@@ -56,13 +56,13 @@ class DepthFirstPaths {
     /**
      * { validate vertex or not }.
      *
-     * @param      v     { v }
+     * @param      v1    { v }
      */
-    private void validateVertex(final int v) {
-        int V = marked.length;
-        if (v < 0 || v >= V) {
+    private void validateVertex(final int v1) {
+        int v = marked.length;
+        if (v1 < 0 || v1 >= v) {
             throw new IllegalArgumentException(
-                "vertex " + v + " is not between 0 and " + (V - 1));
+                "vertex " + v1 + " is not between 0 and " + (v - 1));
         }
     }
 }

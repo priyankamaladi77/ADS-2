@@ -1,27 +1,11 @@
 Starting audit...
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\DepthFirstSearch.java:21:8: Unused @param tag for 's'. [JavadocMethod]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\DepthFirstSearch.java:23:21: Parameter G should be final. [FinalParameters]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\DepthFirstSearch.java:23:27: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\DepthFirstSearch.java:23:30: Parameter s1 should be final. [FinalParameters]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\DepthFirstSearch.java:23:34: Expected @param tag for 's1'. [JavadocMethod]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\DepthFirstSearch.java:36:34: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\DepthFirstSearch.java:62:13: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
 Audit done.
-Checkstyle ends with 7 errors.
 Starting audit...
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:3: Missing a Javadoc comment. [JavadocType]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:4:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:20:8: Unused @param tag for 'V'. [JavadocMethod]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:22:18: Parameter ver1 should be final. [FinalParameters]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:22:22: Expected @param tag for 'ver1'. [JavadocMethod]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:23: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:33:16: Name 'Ver' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:41:16: Name 'Edg' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:50:25: Parameter v should be final. [FinalParameters]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:50:32: Parameter w should be final. [FinalParameters]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:51: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:32:8: Unused @param tag for 'Ver1'. [JavadocMethod]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:34:18: Parameter ver1 should be final. [FinalParameters]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:34:22: Expected @param tag for 'ver1'. [JavadocMethod]
 Audit done.
-Checkstyle ends with 11 errors.
+Checkstyle ends with 3 errors.
 Starting audit...
 Audit done.
 Starting audit...
