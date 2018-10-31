@@ -25,11 +25,11 @@ public class Graph {
      *
      * @param      V1     { vertices }
      */
-    public Graph(final int V1) {
-        if (V1 < 0) {
+    public Graph(final int v1) {
+        if (v1 < 0) {
             throw new IllegalArgumentException("Too few vertices");
         }
-        this.vertices = V1;
+        this.vertices = v1;
         this.edges = 0;
         this.adj = new boolean[vertices][vertices];
     }
