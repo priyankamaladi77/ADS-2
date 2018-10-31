@@ -10,18 +10,19 @@ Starting audit...
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\CC.java:28:28: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\CC.java:28:31: Parameter v should be final. [FinalParameters]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\CC.java:28:35: Expected @param tag for 'v'. [JavadocMethod]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\CC.java:44: Line is longer than 80 characters (found 84). [LineLength]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\CC.java:46:19: Parameter v should be final. [FinalParameters]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\CC.java:60:21: Parameter v should be final. [FinalParameters]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\CC.java:84:30: Parameter v should be final. [FinalParameters]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\CC.java:84:37: Parameter w should be final. [FinalParameters]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\CC.java:100:33: Parameter v should be final. [FinalParameters]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\CC.java:100:40: Parameter w should be final. [FinalParameters]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\CC.java:105:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\CC.java:105:33: Parameter v should be final. [FinalParameters]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\CC.java:106:13: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\CC.java:39: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\CC.java:45: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\CC.java:47:19: Parameter v should be final. [FinalParameters]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\CC.java:61:21: Parameter v should be final. [FinalParameters]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\CC.java:85:30: Parameter v should be final. [FinalParameters]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\CC.java:85:37: Parameter w should be final. [FinalParameters]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\CC.java:101:33: Parameter v should be final. [FinalParameters]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\CC.java:101:40: Parameter w should be final. [FinalParameters]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\CC.java:106:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\CC.java:106:33: Parameter v should be final. [FinalParameters]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\CC.java:107:13: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
 Audit done.
-Checkstyle ends with 21 errors.
+Checkstyle ends with 22 errors.
 Starting audit...
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\DepthFirstSearch.java:21:8: Unused @param tag for 's'. [JavadocMethod]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\DepthFirstSearch.java:23:21: Parameter G should be final. [FinalParameters]
@@ -33,10 +34,29 @@ Starting audit...
 Audit done.
 Checkstyle ends with 7 errors.
 Starting audit...
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:26:8: Unused @param tag for 'V1'. [JavadocMethod]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:28:28: Expected @param tag for 'v1'. [JavadocMethod]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:4:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:8:23: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:12:17: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:22:18: Parameter V should be final. [FinalParameters]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:22:22: 'V' hides a field. [HiddenField]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:22:22: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:23: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:33:16: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:41:16: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:50:25: Parameter v should be final. [FinalParameters]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:50:32: Parameter w should be final. [FinalParameters]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:51: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:63:29: Parameter v should be final. [FinalParameters]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:63:36: Parameter w should be final. [FinalParameters]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:66: First sentence should end with a period. [JavadocStyle]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:73:34: Parameter v should be final. [FinalParameters]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:93:21: Parameter v should be final. [FinalParameters]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:93:25: 'v' hides a field. [HiddenField]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:111: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m2\2.1 CC_Percolation\Graph.java:128:9: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 2 errors.
+Checkstyle ends with 21 errors.
 Starting audit...
 Audit done.
 Starting audit...
