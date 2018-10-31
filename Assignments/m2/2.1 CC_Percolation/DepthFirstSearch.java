@@ -3,17 +3,17 @@
  */
 class DepthFirstPaths {
     /**
-     * { var_description }.
+     * marked of type boolean.
      */
-    private boolean[] marked;    // marked[v] = is there an s-v path?
+    private boolean[] marked;
     /**
-     * { var_description }.
+     * edgeTo array of type int.
      */
-    private int[] edgeTo;        // edgeTo[v] = last edge on s-v path
+    private int[] edgeTo;
     /**
-     * { var_description }.
+     * s of type int.
      */
-    private final int s;         // source vertex
+    private final int s;
     /**
      * Constructs the object.
      *

@@ -16,10 +16,12 @@ class Percolation {
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
                 if (matrix[i][j] == 1) {
+                    // top to virtual node.
                     if (i == 0) {
                         graph.addEdge(i * size + j,
                             size * size);
                     }
+                    // bottom to virtual node.
                     if (i == size - 1) {
                         graph.addEdge(i * size + j,
                             size * size + 1);

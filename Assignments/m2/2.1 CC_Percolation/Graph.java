@@ -11,23 +11,23 @@ import java.util.NoSuchElementException;
  */
 public class Graph {
     /**
-     * { var_description }.
+     * variable NEWLINE of type string.
      */
     private static final String NEWLINE = System.getProperty("line.separator");
-    /**.
-     * { vertices }
+    /**
+     * { vertices of type int}.
      */
     private final int ver;
-    /**.
-     * { edges }
+    /**
+     * { edges of type int }.
      */
     private int edg;
-    /**.
-     * { adj }
+    /**
+     * { adj 2D matrix of type boolean.
      */
     private boolean[][] adj;
     /**
-     * Constructs the object.
+     * Constructs the object for graph.
      *
      * @param      ver1    { vertices }
      */
