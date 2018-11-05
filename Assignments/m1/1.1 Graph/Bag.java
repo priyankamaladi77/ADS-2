@@ -110,13 +110,20 @@ public class Bag<Item> implements Iterable<Item> {
      */
     private class ListIterator implements Iterator<Item> {
         /**
-         * { var_description }
+         * { var_description }.
          */
         private Node current = first;
-
+        /**
+         * Determines if it has next.
+         *
+         * @return     True if has next, False otherwise.
+         */
         public boolean hasNext() {
             return current != null;
         }
+        /**
+         * { function_description }.
+         */
         public void remove() {
             throw new UnsupportedOperationException();
         }
@@ -137,3 +144,4 @@ public class Bag<Item> implements Iterable<Item> {
     }
 
 }
+
