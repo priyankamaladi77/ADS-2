@@ -84,7 +84,7 @@ class ListGraph {
             bag[vert1].add(vert2);
             bag[vert2].add(vert1);
             count++;
-        } 
+        }
     }
     /**
      * Iterable to iterate no.of keys.
