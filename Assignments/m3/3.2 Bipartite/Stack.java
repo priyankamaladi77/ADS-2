@@ -63,7 +63,7 @@ public class Stack<Item> implements Iterable<Item> {
         size++;
     }
     /**
-     * { pop }
+     * { pop }.
      *
      * @return     { item }
      */
@@ -106,7 +106,7 @@ public class Stack<Item> implements Iterable<Item> {
      */
     private class ListIterator implements Iterator<Item> {
         /**
-         * { current node }
+         * { current node }.
          */
         private Node current = first;
         /**
@@ -118,7 +118,7 @@ public class Stack<Item> implements Iterable<Item> {
             return current != null;
         }
         /**
-         * { remove }
+         * { remove }.
          */
         public void remove() {
             throw new UnsupportedOperationException();
@@ -138,3 +138,4 @@ public class Stack<Item> implements Iterable<Item> {
         }
     }
 }
+
