@@ -1,36 +1,10 @@
 Starting audit...
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:13: Line has trailing spaces. [RegexpSingleline]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:14: Line has trailing spaces. [RegexpSingleline]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:17: Line has trailing spaces. [RegexpSingleline]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:18: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:20: Line is longer than 80 characters (found 105). [LineLength]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:23: Type Javadoc comment is missing @param <Item> tag. [JavadocType]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:24:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:24:17: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:25:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:28: Missing a Javadoc comment. [JavadocType]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:29:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:30:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:44: Expected @return tag. [JavadocMethod]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:51: Expected @return tag. [JavadocMethod]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:58:21: Parameter item should be final. [FinalParameters]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:58:26: Expected @param tag for 'item'. [JavadocMethod]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:67:5: Class 'Bag' looks like designed for extension (can be subclassed), but the method 'contains' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Bag' final or making the method 'contains' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:67:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:81: Expected @return tag. [JavadocMethod]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:82: Line has trailing spaces. [RegexpSingleline]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:86: Missing a Javadoc comment. [JavadocType]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:87:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:89: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:89:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:90: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:90:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:92:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:93: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:95: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:112: First sentence should end with a period. [JavadocStyle]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:117:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Bag.java:120:9: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 30 errors.
+Checkstyle ends with 4 errors.
 Starting audit...
 Audit done.
 Starting audit...
