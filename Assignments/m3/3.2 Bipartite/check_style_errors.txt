@@ -5,17 +5,12 @@ Checkstyle ends with 1 errors.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m3\3.2 Bipartite\Graph.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
-Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m3\3.2 Bipartite\Queue.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
 Checkstyle ends with 1 errors.
 Starting audit...
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m3\3.2 Bipartite\Solution.java:9:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m3\3.2 Bipartite\Solution.java:16:9: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 2 errors.
 Starting audit...
 Audit done.
