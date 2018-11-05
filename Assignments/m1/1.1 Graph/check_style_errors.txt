@@ -39,7 +39,5 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Solution.java:24:27: Name 'ListGraphist' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m1\1.1 Graph\Solution.java:36:29: Name 'MatrixGraphrix' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
 Audit done.
-Checkstyle ends with 3 errors.
+Checkstyle ends with 1 errors.

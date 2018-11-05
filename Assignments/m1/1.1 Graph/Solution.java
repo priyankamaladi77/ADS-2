@@ -21,28 +21,28 @@ public final class Solution {
         String token = sc.nextLine();
         switch (token) {
             case "List":
-                ListGraph ListGraphist = new ListGraph(sc);
+                ListGraph listgraph = new ListGraph(sc);
                 while (sc.hasNext()) {
                     String[] connection = sc.nextLine().split(" ");
                     int val1 = Integer.parseInt(connection[0]);
                     int val2 = Integer.parseInt(connection[1]);
                     if (val1 != val2) {
-                        ListGraphist.addEdge(val1, val2);
+                        listgraph.addEdge(val1, val2);
                     }
                 }
-                System.out.println(ListGraphist.tostring());
+                System.out.println(listgraph.tostring());
             break;
             case "Matrix":
-                MatrixGraph MatrixGraphrix = new MatrixGraph(sc);
+                MatrixGraph matrixgraph = new MatrixGraph(sc);
                 while (sc.hasNext()) {
                     String[] connection = sc.nextLine().split(" ");
                     int v1 = Integer.parseInt(connection[0]);
                     int v2 = Integer.parseInt(connection[1]);
                     if (v1 != v2) {
-                        MatrixGraphrix.addEdge(v1, v2);
+                        matrixgraph.addEdge(v1, v2);
                     }
                 }
-                System.out.println(MatrixGraphrix.tostring());
+                System.out.println(matrixgraph.tostring());
             break;
             default:
             break;
