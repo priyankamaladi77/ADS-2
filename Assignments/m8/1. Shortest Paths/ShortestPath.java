@@ -11,7 +11,7 @@ class ShortestPath {
      */
     private Edge[] edgeTo;
     /**
-     * { min pq  of type indexMin}
+     * { min pq  of type indexMin}.
      */
     private IndexMinPQ<Double> pq;
     /**
