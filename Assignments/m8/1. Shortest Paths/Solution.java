@@ -22,7 +22,7 @@ public final class Solution {
 		Scanner sc = new Scanner(System.in);
 		int v = sc.nextInt();
 		int e = sc.nextInt();
-		sc.nextInt();
+		sc.nextLine();
 		String[] stations = sc.nextLine().split(" ");
 		ArrayList<String> stationslist = new ArrayList<String>();
 		for (int i = 0; i < stations.length; i++) {
