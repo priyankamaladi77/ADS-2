@@ -229,7 +229,6 @@ Starting audit...
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:4:17: Variable 'pic' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:5:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:5:27: Parameter picture should be final. [FinalParameters]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:6:25: 'pic' hides a field. [HiddenField]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:9:9: Class 'SeamCarver' looks like designed for extension (can be subclassed), but the method 'picture' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeamCarver' final or making the method 'picture' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:9:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:13:9: Class 'SeamCarver' looks like designed for extension (can be subclassed), but the method 'width' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeamCarver' final or making the method 'width' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
@@ -249,7 +248,7 @@ Starting audit...
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:43:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:43:40: Parameter seam should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 26 errors.
+Checkstyle ends with 25 errors.
 Starting audit...
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\ShowEnergy.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\ShowEnergy.java:5: Line has trailing spaces. [RegexpSingleline]
