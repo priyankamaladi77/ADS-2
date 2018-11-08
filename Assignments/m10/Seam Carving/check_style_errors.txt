@@ -239,18 +239,17 @@ Starting audit...
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:23:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:23:30: Parameter x should be final. [FinalParameters]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:23:37: Parameter y should be final. [FinalParameters]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:25:51: Must have at least one statement. [EmptyBlock]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:27:16: '1000' is a magic number. [MagicNumber]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:31:9: Class 'SeamCarver' looks like designed for extension (can be subclassed), but the method 'findHorizontalSeam' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeamCarver' final or making the method 'findHorizontalSeam' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:31:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:36:9: Class 'SeamCarver' looks like designed for extension (can be subclassed), but the method 'findVerticalSeam' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeamCarver' final or making the method 'findVerticalSeam' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:36:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:41:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:41:42: Parameter seam should be final. [FinalParameters]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:46:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:46:40: Parameter seam should be final. [FinalParameters]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:26:32: '1000' is a magic number. [MagicNumber]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:32:9: Class 'SeamCarver' looks like designed for extension (can be subclassed), but the method 'findHorizontalSeam' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeamCarver' final or making the method 'findHorizontalSeam' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:32:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:37:9: Class 'SeamCarver' looks like designed for extension (can be subclassed), but the method 'findVerticalSeam' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeamCarver' final or making the method 'findVerticalSeam' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:37:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:42:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:42:42: Parameter seam should be final. [FinalParameters]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:47:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:47:40: Parameter seam should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 27 errors.
+Checkstyle ends with 26 errors.
 Starting audit...
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\ShowEnergy.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\ShowEnergy.java:5: Line has trailing spaces. [RegexpSingleline]
