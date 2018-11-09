@@ -25,7 +25,7 @@ Starting audit...
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\Picture.java:107: Line is longer than 80 characters (found 84). [LineLength]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\Picture.java:116:20: Parameter picture should be final. [FinalParameters]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\Picture.java:117: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\Picture.java:117: Line is longer than 80 characters (found 96). [LineLength]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\Picture.java:117: Line is longer than 80 characters (found 83). [LineLength]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\Picture.java:124: 'for' construct must use '{}'s. [NeedBraces]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\Picture.java:125: 'for' construct must use '{}'s. [NeedBraces]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\Picture.java:136:20: Parameter filename should be final. [FinalParameters]
