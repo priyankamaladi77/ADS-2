@@ -9,8 +9,8 @@ public final class Solution {
 		// Parallel Edges are allowed...
 		// Take the Graph input here...
 		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
-		int k = sc.nextInt();
+		int n = Integer.parseInt(sc.nextLine());
+		int k = Integer.parseInt(sc.nextLine());
 		sc.nextLine();
 		String[] roadlines = sc.nextLine().split(" ");
 		ArrayList<Integer> roads = new ArrayList<Integer>();
