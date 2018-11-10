@@ -3,8 +3,8 @@
  */
 class EdgeWeightedGraph {
     private static final String NEWLINE = System.getProperty("line.separator");
-    private int V;
-    private int E;
+    private int n;
+    private int k;
     /**
      * { array list of type bag }.
      */
@@ -19,8 +19,8 @@ class EdgeWeightedGraph {
      * @param      s     { size of graph }
      */
     EdgeWeightedGraph(final int s) {
-        this.V = V;
-        this.E = 0;
+        this.n = n;
+        this.k = 0;
         list = new Bag[s];
         size = s;
         for (int i = 0; i < s; i++) {
@@ -59,8 +59,8 @@ class EdgeWeightedGraph {
     }
     public String toString() {
         StringBuilder s = new StringBuilder();
-        s.append(V + " " + E + NEWLINE);
-        for (int v = 0; v < V; v++) {
+        s.append(n + " " + k + NEWLINE);
+        for (int v = 0; v < n; v++) {
             s.append(v + ": ");
             for (Edge e : list[v]) {
                 s.append(e + "  ");

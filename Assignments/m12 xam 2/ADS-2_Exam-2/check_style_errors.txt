@@ -5,12 +5,10 @@ Audit done.
 Starting audit...
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\EdgeWeightedGraph.java:5:5: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\EdgeWeightedGraph.java:6:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\EdgeWeightedGraph.java:6:17: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\EdgeWeightedGraph.java:7:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\EdgeWeightedGraph.java:7:17: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\EdgeWeightedGraph.java:60:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 6 errors.
+Checkstyle ends with 4 errors.
 Starting audit...
 Audit done.
 Starting audit...
