@@ -1,0 +1,20 @@
+Starting audit...
+Audit done.
+Starting audit...
+Audit done.
+Starting audit...
+Audit done.
+Starting audit...
+Audit done.
+Starting audit...
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\Solution.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\Solution.java:4:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\Solution.java:4:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\Solution.java:7:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\Solution.java:7:33: Parameter args should be final. [FinalParameters]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\Solution.java:35: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\Solution.java:42: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\Solution.java:43: Line is longer than 80 characters (found 110). [LineLength]
+Audit done.
+Checkstyle ends with 9 errors.
