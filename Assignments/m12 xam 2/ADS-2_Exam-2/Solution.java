@@ -13,9 +13,9 @@ public final class Solution {
 		int k = Integer.parseInt(sc.nextLine());
 		sc.nextLine();
 		String[] roadlines = sc.nextLine().split(" ");
-		ArrayList<Integer> roads = new ArrayList<Integer>();
+		ArrayList<String> roads = new ArrayList<String>();
 		for (int i = 0; i < roadlines.length; i++) {
-            roads.add(Integer.parseInt(roadlines[i]));
+            roads.add(roadlines[i]);
         }
 		String caseToGo = sc.nextLine();
 		switch (caseToGo) {
