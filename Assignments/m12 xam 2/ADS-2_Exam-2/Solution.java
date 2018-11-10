@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-public final class Solution {
+
+	final class Solution {
 	private Solution() {
 		//default constructor.
 	}
@@ -11,17 +12,19 @@ public final class Solution {
 		Scanner sc = new Scanner(System.in);
 		int n = Integer.parseInt(sc.nextLine());
 		int k = Integer.parseInt(sc.nextLine());
-		EdgeWeightedGraph graph = new EdgeWeightedGraph(n);
-			for (int j = 0; j < k; j++) {
+		EdgeWeightedGraph  graph = new EdgeWeightedGraph (n);
+		while(k > 0) { 
 	        String[] input = sc.nextLine().split(" ");
 	        graph.addEdge(new Edge(Integer.parseInt(input[0]),
 	            Integer.parseInt(input[1]),
-	            Integer.parseInt(input[2])));
+	            Double.parseDouble(input[2])));
+
+	    k--;
 	    }
 		String caseToGo = sc.nextLine();
 		switch (caseToGo) {
 		case "Graph":
-        System.out.println(graph);
+        System.out.println(graph.toString());
 		break;
 
 		case "DirectedPaths":
