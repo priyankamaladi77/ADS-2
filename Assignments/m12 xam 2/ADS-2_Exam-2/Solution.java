@@ -28,7 +28,7 @@ public final class Solution {
                 roads.indexOf(input[1]),
                 Integer.parseInt(input[2])));
         }
-        System.out.println("gkjinjsj");
+        System.out.println(graph);
 		break;
 
 		case "DirectedPaths":
