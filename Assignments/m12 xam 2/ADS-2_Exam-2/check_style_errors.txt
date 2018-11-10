@@ -35,7 +35,6 @@ Starting audit...
 Audit done.
 Checkstyle ends with 1 errors.
 Starting audit...
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\EdgeWeightedGraph.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\EdgeWeightedGraph.java:1: Missing a Javadoc comment. [JavadocType]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\EdgeWeightedGraph.java:2:5: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\EdgeWeightedGraph.java:4:5: Missing a Javadoc comment. [JavadocVariable]
@@ -82,7 +81,7 @@ Starting audit...
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\EdgeWeightedGraph.java:146: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\EdgeWeightedGraph.java:158: Line is longer than 80 characters (found 93). [LineLength]
 Audit done.
-Checkstyle ends with 46 errors.
+Checkstyle ends with 45 errors.
 Starting audit...
 Audit done.
 Starting audit...
