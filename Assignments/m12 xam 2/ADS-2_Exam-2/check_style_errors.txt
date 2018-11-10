@@ -3,18 +3,25 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\EdgeWeightedGraph.java:5:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\EdgeWeightedGraph.java:6:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\EdgeWeightedGraph.java:7:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\EdgeWeightedGraph.java:7:17: Name 'NEWLINE' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\EdgeWeightedGraph.java:57:6: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
+Checkstyle ends with 5 errors.
 Starting audit...
 Audit done.
 Starting audit...
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\Solution.java:1:8: Unused import - java.util.ArrayList. [UnusedImports]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\Solution.java:3: Missing a Javadoc comment. [JavadocType]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\Solution.java:4:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\Solution.java:4:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\Solution.java:7:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\Solution.java:7:33: Parameter args should be final. [FinalParameters]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\Solution.java:35: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\Solution.java:42: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\Solution.java:43: Line is longer than 80 characters (found 110). [LineLength]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\Solution.java:28: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\Solution.java:35: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m12 xam 2\ADS-2_Exam-2\Solution.java:36: Line is longer than 80 characters (found 110). [LineLength]
 Audit done.
-Checkstyle ends with 9 errors.
+Checkstyle ends with 10 errors.

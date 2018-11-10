@@ -2,6 +2,9 @@
  * Class for edge weighted graph.
  */
 class EdgeWeightedGraph {
+    private int start;
+    private int end;
+    private int NEWLINE;
     /**
      * { array list of type bag }.
      */
@@ -50,5 +53,17 @@ class EdgeWeightedGraph {
      */
     public Iterable<Edge> adj(final int v) {
         return list[v];
+    }
+     public String toString() {
+        StringBuilder s = new StringBuilder();
+        s.append(start + " " + end + NEWLINE);
+        for (int v = 0; v < start; v++) {
+            s.append(v + ": ");
+            for (Edge e : list[v]) {
+                s.append(e + "  ");
+            }
+            s.append(NEWLINE);
+        }
+        return s.toString();
     }
 }

@@ -11,23 +11,16 @@ public final class Solution {
 		Scanner sc = new Scanner(System.in);
 		int n = Integer.parseInt(sc.nextLine());
 		int k = Integer.parseInt(sc.nextLine());
-		sc.nextLine();
-		String[] roadlines = sc.nextLine().split(" ");
-		ArrayList<String> roads = new ArrayList<String>();
-		for (int i = 0; i < roadlines.length; i++) {
-            roads.add(roadlines[i]);
-        }
+		EdgeWeightedGraph graph = new EdgeWeightedGraph(n);
+			for (int j = 0; j < k; j++) {
+	        String[] input = sc.nextLine().split(" ");
+	        graph.addEdge(new Edge(Integer.parseInt(input[0]),
+	            Integer.parseInt(input[1]),
+	            Integer.parseInt(input[2])));
+	    }
 		String caseToGo = sc.nextLine();
 		switch (caseToGo) {
 		case "Graph":
-			//Print the Graph Object.
-			EdgeWeightedGraph graph = new EdgeWeightedGraph(n);
-        for (int j = 0; j < k; j++) {
-            String[] input = sc.nextLine().split(" ");
-            graph.addEdge(new Edge(roads.indexOf(input[0]),
-                roads.indexOf(input[1]),
-                Integer.parseInt(input[2])));
-        }
         System.out.println(graph);
 		break;
 
