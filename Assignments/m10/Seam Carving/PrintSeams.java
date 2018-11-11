@@ -31,9 +31,6 @@
  *
  ******************************************************************************/
 
-import edu.princeton.cs.algs4.Picture;
-import edu.princeton.cs.algs4.StdOut;
-
 public class PrintSeams {
     private static final boolean HORIZONTAL   = true;
     private static final boolean VERTICAL     = false;
@@ -85,5 +82,4 @@ public class PrintSeams {
         printSeam(carver, horizontalSeam, HORIZONTAL);
 
     }
-
 }
