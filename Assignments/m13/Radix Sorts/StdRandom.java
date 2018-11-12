@@ -11,7 +11,7 @@ public final class StdRandom {
      * { var_description }.
      */
     private static long seed;        // pseudo-random number generator seed
-
+    private static double Epsilon = 1E-14;
     // static initializer
     static {
         // this is how the seed was set in Java 1.4
