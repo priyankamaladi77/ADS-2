@@ -4,7 +4,7 @@
 class Quick3string {
     // cutoff to insertion sort.
     /**
-     * { var_description }.
+     * { variable cutoff of type int }.
      */
     private static final int CUTOFF =  15;
     // do not instantiate.
@@ -15,7 +15,7 @@ class Quick3string {
     }
     /**
      * Rearranges the array of strings in ascending order.
-     *
+     * The time complexity is O(N) as it uses sort function.
      * @param      a     the array to be sorted
      */
     public static void sort(final String[] a) {
@@ -23,14 +23,13 @@ class Quick3string {
         sort(a, 0, a.length - 1, 0);
         assert isSorted(a);
     }
-    // return the dth character of s, -1 if d = length of s
     /**
-     * { function_description }.
-     *
+     * return the dth character of s, -1 if d = length of s.
+     * The time complexity is constant as each statments executes only once.
      * @param      s     { parameter_description }
      * @param      d     { parameter_description }
      *
-     * @return     { description_of_the_return_value }
+     * @return returns the dth character of s, -1 if d = length of s.
      */
     private static int charAt(final String s, final int d) {
         assert d >= 0 && d <= s.length();
@@ -39,10 +38,9 @@ class Quick3string {
         }
         return s.charAt(d);
     }
-    //3-way string quicksort a[lo..hi] starting at dth character
     /**
-     * { function_description }.
-     *
+     * 3-way string quicksort a[lo..hi] starting at dth character.
+     * The time complexity is O(N) as sort method is called rescursively.
      * @param      a     { parameter_description }
      * @param      lo    The lower
      * @param      hi    The higher
@@ -76,8 +74,8 @@ class Quick3string {
         sort(a, gt + 1, hi, d);
     }
     /**
-     * // sort from a[lo] to a[hi], starting at the dth character.
-     *
+     * sort from a[lo] to a[hi], starting at the dth character.
+     * The time complexity is O(N^2) as two for loops iterates for n times.
      * @param      a     { parameter_description }
      * @param      lo    The lower
      * @param      hi    The higher
@@ -92,8 +90,8 @@ class Quick3string {
         }
     }
     /**
-     * // exchange a[i] and a[j].
-     *
+     * exchange a[i] and a[j].
+     * The time complexity is constant as each statment executes only once.
      * @param      a     { parameter_description }
      * @param      i     { parameter_description }
      * @param      j     { parameter_description }
@@ -110,13 +108,14 @@ class Quick3string {
     // return v.substring(d).compareTo(w.substring(d)) < 0; } is v less than w,
     // starting at character d
     /**
-     * { function_description }.
+     * compares two characters.
      *
-     * @param      v     { parameter_description }
-     * @param      w     { parameter_description }
-     * @param      d     { parameter_description }
+     * @param      v     { string }
+     * @param      w     { string }
+     * @param      d     { integer type }
      *
-     * @return     { description_of_the_return_value }
+     * @return  returns true if v.charAt(i) < w.charAt(i)
+     * returns false if v.charAt(i) > w.charAt(i) }
      */
     private static boolean less(final String v, final String w, final int d) {
         assert v.substring(0, d).equals(w.substring(0, d));
@@ -133,7 +132,7 @@ class Quick3string {
     // is the array sorted
     /**
      * Determines if sorted.
-     *
+     * The time complexity is O(N) as it iterates for length of loop. 
      * @param      a     { parameter_description }
      *
      * @return     True if sorted, False otherwise.
