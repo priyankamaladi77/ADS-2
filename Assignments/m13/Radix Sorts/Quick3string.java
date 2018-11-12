@@ -11,8 +11,7 @@ class Quick3string {
     /**
      * Constructs the object for Quick3string class.
      */
-    public Quick3string() {
-        //default constructor.
+    Quick3string() {
     }
     /**
      * Rearranges the array of strings in ascending order.
