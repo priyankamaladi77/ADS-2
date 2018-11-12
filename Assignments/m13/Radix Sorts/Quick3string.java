@@ -1,7 +1,7 @@
 /**
  * Class for quick 3 string.
  */
-class Quick3string {
+public class Quick3string {
     // cutoff to insertion sort.
     /**
      * { var_description }.
@@ -33,7 +33,7 @@ class Quick3string {
      *
      * @return     { description_of_the_return_value }
      */
-    private static int charAt(final String s, final int d) { 
+    private static int charAt(final String s, final int d) {
         assert d >= 0 && d <= s.length();
         if (d == s.length()) {
             return -1;
@@ -50,7 +50,7 @@ class Quick3string {
      * @param      d     { parameter_description }
      */
     private static void sort(final String[] a, final int lo,
-        final int hi, final int d) { 
+        final int hi, final int d) {
         // cutoff to insertion sort for small subarrays
         if (hi <= lo + CUTOFF) {
             insertion(a, lo, hi, d);
@@ -63,11 +63,9 @@ class Quick3string {
             int t = charAt(a[i], d);
             if (t < v) {
                 exch(a, lt++, i++);
-            }
-            else if (t > v) {
+            } else if (t > v) {
                 exch(a, i, gt--);
-            }
-            else {
+            } else {
                 i++;
             }
         }
