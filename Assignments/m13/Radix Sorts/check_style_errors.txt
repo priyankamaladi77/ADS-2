@@ -4,11 +4,3 @@ Audit done.
 Checkstyle ends with 1 errors.
 Starting audit...
 Audit done.
-Starting audit...
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\StdRandom.java:14:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\StdRandom.java:14:37: '1E-14' is a magic number. [MagicNumber]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\StdRandom.java:178:26: '0.5' is a magic number. [MagicNumber]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\StdRandom.java:195:30: '-2' is a magic number. [MagicNumber]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\StdRandom.java:303:48: '0.5' is a magic number. [MagicNumber]
-Audit done.
-Checkstyle ends with 5 errors.
