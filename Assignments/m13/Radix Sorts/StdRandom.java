@@ -11,7 +11,7 @@ public final class StdRandom {
      * { var_description }.
      */
     private static long seed;        // pseudo-random number generator seed
-    private static double Epsilon = 1E-14;
+    private static double epsilon = 1E-14;
     // static initializer
     static {
         // this is how the seed was set in Java 1.4
@@ -320,7 +320,7 @@ public final class StdRandom {
         if (probabilities == null) {
             throw new IllegalArgumentException("argument array is null");
         }
-        double EPSILON = 1E-14;
+        double epsi = epsilon;
         double sum = 0.0;
         for (int i = 0; i < probabilities.length; i++) {
             if (!(probabilities[i] >= 0.0)) {
@@ -330,7 +330,7 @@ public final class StdRandom {
             }
             sum += probabilities[i];
         }
-        if (sum > 1.0 + EPSILON || sum < 1.0 - EPSILON) {
+        if (sum > 1.0 + epsi || sum < 1.0 - epsi) {
             throw new IllegalArgumentException(
         "sum of array entries does notapproximately equal 1.0: " + sum);
         }
