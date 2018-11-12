@@ -74,10 +74,14 @@ public class Quick3string {
     }
     // is the array sorted
     private static boolean isSorted(String[] a) {
-        for (int i = 1; i < a.length; i++)
-            if (a[i].compareTo(a[i-1]) < 0) return false;
+        for (int i = 1; i < a.length; i++) {
+            if (a[i].compareTo(a[i - 1]) < 0) {
+                return false;
+            }
+        }
         return true;
     }
+
     // /**
     //  * Reads in a sequence of fixed-length strings from standard input;
     //  * 3-way radix quicksorts them;

@@ -53,12 +53,8 @@ Starting audit...
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:71: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:76:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:76:37: Parameter a should be final. [FinalParameters]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:77: 'for' construct must use '{}'s. [NeedBraces]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:78: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:78:35: '-' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:78:36: '-' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 58 errors.
+Checkstyle ends with 54 errors.
 Starting audit...
 Audit done.
 Starting audit...
