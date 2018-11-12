@@ -1,3 +1,5 @@
+// When compared with LSD and MSD the time complexity and
+// space complexity for QuickthreeString is better than the both.
 /**
  * Class for quick 3 string.
  */
