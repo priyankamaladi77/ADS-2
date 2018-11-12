@@ -11,7 +11,7 @@ class Quick3string {
     /**
      * Constructs the object for Quick3string class.
      */
-    Quick3string() {
+    protected Quick3string() {
     }
     /**
      * Rearranges the array of strings in ascending order.
