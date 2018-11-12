@@ -1,31 +1,56 @@
 /**
  * Class for quick 3 string.
  */
-public class Quick3string {
+class Quick3string {
     // cutoff to insertion sort.
+    /**
+     * { var_description }.
+     */
     private static final int CUTOFF =  15;
     // do not instantiate.
+    /**
+     * Constructs the object for Quick3string class.
+     */
     Quick3string() {
         //default constructor.
-    } 
-    /**  
+    }
+    /**
      * Rearranges the array of strings in ascending order.
      *
-     * @param a the array to be sorted
+     * @param      a     the array to be sorted
      */
-    public static void sort(String[] a) {
+    public static void sort(final String[] a) {
         StdRandom.shuffle(a);
-        sort(a, 0, a.length-1, 0);
+        sort(a, 0, a.length - 1, 0);
         assert isSorted(a);
     }
     // return the dth character of s, -1 if d = length of s
-    private static int charAt(String s, int d) { 
+    /**
+     * { function_description }.
+     *
+     * @param      s     { parameter_description }
+     * @param      d     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
+    private static int charAt(final String s, final int d) { 
         assert d >= 0 && d <= s.length();
-        if (d == s.length()) return -1;
+        if (d == s.length()) {
+            return -1;
+        }
         return s.charAt(d);
     }
-    // 3-way string quicksort a[lo..hi] starting at dth character
-    private static void sort(String[] a, int lo, int hi, int d) { 
+    //3-way string quicksort a[lo..hi] starting at dth character
+    /**
+     * { function_description }.
+     *
+     * @param      a     { parameter_description }
+     * @param      lo    The lower
+     * @param      hi    The higher
+     * @param      d     { parameter_description }
+     */
+    private static void sort(final String[] a, final int lo,
+        final int hi, final int d) { 
         // cutoff to insertion sort for small subarrays
         if (hi <= lo + CUTOFF) {
             insertion(a, lo, hi, d);
@@ -36,14 +61,20 @@ public class Quick3string {
         int i = lo + 1;
         while (i <= gt) {
             int t = charAt(a[i], d);
-            if      (t < v) exch(a, lt++, i++);
-            else if (t > v) exch(a, i, gt--);
-            else              i++;
+            if (t < v) {
+                exch(a, lt++, i++);
+            }
+            else if (t > v) {
+                exch(a, i, gt--);
+            }
+            else {
+                i++;
+            }
         }
-        // a[lo..lt-1] < v = a[lt..gt] < a[gt+1..hi]. 
-        sort(a, lo, lt-1, d);
+        // a[lo..lt-1] < v = a[lt..gt] < a[gt+1..hi].
+        sort(a, lo, lt - 1, d);
         if (v >= 0) {
-            sort(a, lt, gt, d+1);
+            sort(a, lt, gt, d + 1);
         }
         sort(a, gt + 1, hi, d);
     }

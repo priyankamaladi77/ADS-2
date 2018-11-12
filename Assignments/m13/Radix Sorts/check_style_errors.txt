@@ -1,33 +1,11 @@
 Starting audit...
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:4:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:6:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:8:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:10: Line has trailing spaces. [RegexpSingleline]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:11: Line has trailing spaces. [RegexpSingleline]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:16:29: Parameter a should be final. [FinalParameters]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:18:28: '-' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:18:29: '-' is not followed by whitespace. [WhitespaceAround]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:22: Line has trailing spaces. [RegexpSingleline]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:22:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:22:31: Parameter s should be final. [FinalParameters]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:22:41: Parameter d should be final. [FinalParameters]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:24: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:28: Line has trailing spaces. [RegexpSingleline]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:28:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:28:30: Parameter a should be final. [FinalParameters]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:28:42: Parameter lo should be final. [FinalParameters]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:28:50: Parameter hi should be final. [FinalParameters]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:28:58: Parameter d should be final. [FinalParameters]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:39: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:40: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:41: 'else' construct must use '{}'s. [NeedBraces]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:43: Line has trailing spaces. [RegexpSingleline]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:44:23: '-' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:44:24: '-' is not followed by whitespace. [WhitespaceAround]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:46:30: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:46:31: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:36: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:53: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:66:13: '}' at column 13 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\Quick3string.java:69:13: '}' at column 13 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
 Audit done.
-Checkstyle ends with 27 errors.
+Checkstyle ends with 5 errors.
 Starting audit...
 Audit done.
 Starting audit...
