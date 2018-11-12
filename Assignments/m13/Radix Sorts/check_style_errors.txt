@@ -7,15 +7,8 @@ Audit done.
 Starting audit...
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\StdRandom.java:178:26: '0.5' is a magic number. [MagicNumber]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\StdRandom.java:195:30: '-2' is a magic number. [MagicNumber]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\StdRandom.java:223: Line has trailing spaces. [RegexpSingleline]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\StdRandom.java:303:48: '0.5' is a magic number. [MagicNumber]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\StdRandom.java:323:16: Name 'EPSILON' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\StdRandom.java:323:26: '1E-14' is a magic number. [MagicNumber]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\StdRandom.java:328:40: '+' should be on a new line. [OperatorWrap]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\StdRandom.java:369: Line has trailing spaces. [RegexpSingleline]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\StdRandom.java:381: Line is longer than 80 characters (found 84). [LineLength]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\StdRandom.java:596: Line has trailing spaces. [RegexpSingleline]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\StdRandom.java:598: Line has trailing spaces. [RegexpSingleline]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m13\Radix Sorts\StdRandom.java:601: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 12 errors.
+Checkstyle ends with 5 errors.

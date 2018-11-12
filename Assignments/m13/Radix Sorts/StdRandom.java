@@ -220,7 +220,7 @@ public final class StdRandom {
      * @return     a random integer from a geometric distribution with success
      *             probability {@code p}; or {@code Integer.MAX_VALUE} if {@code
      *             p} is (nearly) equal to {@code 1.0}.
-     * @throws     IllegalArgumentException 
+     * @throws     IllegalArgumentException
      * unless {@code p >= 0.0} and {@code p <=
      *                                       1.0}
      */
@@ -325,8 +325,8 @@ public final class StdRandom {
         for (int i = 0; i < probabilities.length; i++) {
             if (!(probabilities[i] >= 0.0)) {
                 throw new IllegalArgumentException(
-                    "array entry " + i +
-                    " must be nonnegative: " + probabilities[i]);
+                    "array entry " + i
+                    + " must be nonnegative: " + probabilities[i]);
             }
             sum += probabilities[i];
         }
@@ -366,7 +366,7 @@ public final class StdRandom {
      * @throws     IllegalArgumentException
      * if {@code frequencies[i]} is negative for
      *           any index {@code i}
-     * @throws     IllegalArgumentException 
+     * @throws     IllegalArgumentException
      * if sum of frequencies exceeds {@code
      *     Integer.MAX_VALUE} (2<sup>31</sup> - 1)
      */
@@ -378,7 +378,8 @@ public final class StdRandom {
         for (int i = 0; i < frequencies.length; i++) {
             if (frequencies[i] < 0) {
                 throw new IllegalArgumentException(
-                    "array entry " + i + " must be nonnegative: " + frequencies[i]);
+                    "array entry " + i + " must be nonnegative: "
+                    + frequencies[i]);
             }
             sum += frequencies[i];
         }
@@ -578,7 +579,8 @@ public final class StdRandom {
      */
     public static int[] permutation(final int n) {
         if (n < 0) {
-            throw new IllegalArgumentException("argument is negative");
+            throw new IllegalArgumentException(
+                "argument is negative");
         }
         int[] perm = new int[n];
         for (int i = 0; i < n; i++) {
@@ -593,12 +595,12 @@ public final class StdRandom {
      *
      * @param      n     number of elements
      * @param      k     number of elements to select
-     * @throws     IllegalArgumentException 
+     * @throws     IllegalArgumentException
      * if {@code n} is negative
-     * @throws     IllegalArgumentException 
+     * @throws     IllegalArgumentException
      * unless {@code 0 <= k <= n}
      *
-     * @return     an array of length 
+     * @return     an array of length
      * {@code k} that is a uniformly random
      *             permutation of {@code k} of the elements from {@code 0},
      *             {@code 1}, ..., {@code n-1}
