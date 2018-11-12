@@ -134,7 +134,7 @@ class Quick3string {
     // is the array sorted
     /**
      * Determines if sorted.
-     * The time complexity is O(N) as it iterates for length of loop. 
+     * The time complexity is O(N) as it iterates for length of loop.
      * @param      a     { parameter_description }
      *
      * @return     True if sorted, False otherwise.
