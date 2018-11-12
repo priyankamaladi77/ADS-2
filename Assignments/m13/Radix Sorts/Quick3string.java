@@ -1,7 +1,7 @@
 /**
  * Class for quick 3 string.
  */
-public class Quick3string {
+class Quick3string {
     // cutoff to insertion sort.
     /**
      * { var_description }.
@@ -11,9 +11,9 @@ public class Quick3string {
     /**
      * Constructs the object for Quick3string class.
      */
-    // Quick3string() {
-    //     //default constructor.
-    // }
+    public Quick3string() {
+        //default constructor.
+    }
     /**
      * Rearranges the array of strings in ascending order.
      *
