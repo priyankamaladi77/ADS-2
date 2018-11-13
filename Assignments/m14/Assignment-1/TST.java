@@ -93,7 +93,7 @@ public class TST<Value> {
      * @param      key   The key
      * @param      d     { parameter_description }
      *
-     * @return returns the value associated with given 
+     * @return returns the value associated with given
      * key if the key in symbol table
      *     and {@code null} if the key is not in the symbol table
      */

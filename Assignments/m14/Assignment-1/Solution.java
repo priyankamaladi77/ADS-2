@@ -4,13 +4,13 @@ import java.util.Scanner;
  */
 public class Solution {
     /**
-     * Constructs the object.
+     * Constructs the object for solution.
      */
     protected Solution() {
         //default constructor.
     }
     /**
-     * { function_description }.
+     * main method to find Substring matches from the given file.
      *
      * @param      args  The arguments
      */
