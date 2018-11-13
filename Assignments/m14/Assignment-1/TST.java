@@ -5,11 +5,11 @@
  */
 public class TST<Value> {
     /**
-     * { var_description }.
+     * { variable n of type int }.
      */
     private int n;              // size
     /**
-     * { var_description }.
+     * { variable root of type Node }.
      */
     private Node<Value> root;   // root of TST
     /**
@@ -19,19 +19,18 @@ public class TST<Value> {
      */
     private static class Node<Value> {
         /**
-         * { var_description }.
+         * { variable c of type char }.
          */
         private char c;      // character
         /**
-         * { item_description }.
+         * { item left, mid, right of type Node }.
          */
         private Node<Value> left, mid, right;
         /**
-         * { var_description }.
+         * { variable val of type Value }.
          */
         private Value val;
     }
-
     /**
      * Initializes an empty string symbol table.
      */
@@ -39,6 +38,7 @@ public class TST<Value> {
     }
 
     /**
+     * The time complexity is constant as it executes only once.
      * Returns the number of key-value pairs in this symbol table.
      * @return the number of key-value pairs in this symbol table
      */
@@ -48,6 +48,7 @@ public class TST<Value> {
 
     /**
      * Does this symbol table contain the given key?.
+     * The time complexity is constant as each statment executes only once.
      * @param key the key
      * @return {@code true} if this symbol table contains {@code key} and
      *     {@code false} otherwise
@@ -60,9 +61,10 @@ public class TST<Value> {
         }
         return get(key) != null;
     }
-
     /**
      * Returns the value associated with the given key.
+     * The time complexity is L logN as it searches for the key
+     * and L is the length of Longest substring.
      * @param key the key
      * @return the value associated with given key if the key in symbol table
      *     and {@code null} if the key is not in the symbol table
@@ -84,13 +86,16 @@ public class TST<Value> {
         return x.val;
     }
     /**
-     * { function_description }.
-     *
+     * Returns the value associated with the given key.
+     * The time complexity is L logN as it searches for the key
+     * and L is the length of Longest substring.
      * @param      x     { parameter_description }
      * @param      key   The key
      * @param      d     { parameter_description }
      *
-     * @return     { description_of_the_return_value }
+     * @return returns the value associated with given 
+     * key if the key in symbol table
+     *     and {@code null} if the key is not in the symbol table
      */
     private Node<Value> get(final Node<Value> x, final String key,
                             final int d) {
@@ -113,7 +118,8 @@ public class TST<Value> {
         }
     }
 
-    /**
+    /** The time complexity is L logN as it searches for the key
+     * and L is the length of Longest substring.
      * Inserts the key-value pair symbol table, overwriting the old value.
      * with the new value if the key is already in the symbol table.
      * If the value is {@code null}, this effectively deletes the key
@@ -132,14 +138,18 @@ public class TST<Value> {
         root = put(root, key, val, 0);
     }
     /**
-     * { function_description }.
-     *
+     * Inserts the key-value pair symbol table, overwriting the old value.
+     * with the new value if the key is already in the symbol table.
+     * The time complexity is L logN as it searches for the key
+     * and L is the length of Longest substring.
      * @param      x     { parameter_description }
      * @param      key   The key
      * @param      val   The value
      * @param      d     { parameter_description }
      *
-     * @return     { description_of_the_return_value }
+     * @return returns the key-value pair symbol table,
+     * overwriting the old value.
+     * with the new value if the key is already in the symbol table.
      */
     private Node<Value> put(final Node<Value> x, final String key,
                             final Value val, final int d) {
@@ -161,7 +171,8 @@ public class TST<Value> {
         return x1;
     }
 
-    /**
+    /** The time complexity is O(N) as it iterates
+     * through length of the string.
      * Returns the string in the symbol table that is the longest.
      * prefix of {@code query},
      * or {@code null}, if no such string.
@@ -199,7 +210,8 @@ public class TST<Value> {
         return query.substring(0, length);
     }
 
-    /**
+    /** The time complexity is O(N) as it iterates
+     * over all of the keys in the symbol table.
      * Returns all keys in the symbol table as an {@code Iterable}.
      * To iterate over all of the keys in the symbol table named {@code st},
      * use the foreach notation: {@code for (Key key : st.keys())}.
@@ -211,7 +223,7 @@ public class TST<Value> {
         return queue;
     }
 
-    /**
+    /** The time complexity is O(N) as it calls collect method.
      * Returns all of the keys in the set that start with {@code prefix}.
      * @param prefix the prefix
      * @return all of the keys in the set that start with {@code prefix},
@@ -235,8 +247,9 @@ public class TST<Value> {
         return queue;
     }
     /**
-     * { function_description }.
-     *
+     * returns all keys in subtrie rooted at x with given prefix.
+     * The time complexity is O(N) as it iterates through all the
+     * keys in the string.
      * @param      x       { parameter_description }
      * @param      prefix  The prefix
      * @param      queue   The queue
@@ -255,8 +268,9 @@ public class TST<Value> {
         collect(x.right, prefix, queue);
     }
     /**
-     * { function_description }.
-     *
+     * returns all keys in subtrie rooted at x with given prefix.
+     * The time complexity is O(N) as it iterates through all the
+     * keys in the string.
      * @param      x        { parameter_description }
      * @param      prefix   The prefix
      * @param      i        { parameter_description }

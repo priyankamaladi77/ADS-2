@@ -3,4 +3,6 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m14\Assignment-1\TST.java:96: Line has trailing spaces. [RegexpSingleline]
 Audit done.
+Checkstyle ends with 1 errors.
