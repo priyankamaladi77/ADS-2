@@ -150,10 +150,8 @@ Starting audit...
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m14\Assignment-1\Solution.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m14\Assignment-1\Solution.java:4:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m14\Assignment-1\Solution.java:4:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m14\Assignment-1\Solution.java:4:33: Parameter args should be final. [FinalParameters]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m14\Assignment-1\Solution.java:20:9: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 7 errors.
+Checkstyle ends with 5 errors.
 Starting audit...
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m14\Assignment-1\TST.java:1: Missing a Javadoc comment. [JavadocType]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m14\Assignment-1\TST.java:2:5: Missing a Javadoc comment. [JavadocVariable]

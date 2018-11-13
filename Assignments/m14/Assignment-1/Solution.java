@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class Solution {
-	public static void main(String[] args) {
+class Solution {
+	public static void main(final String[] args) {
 		String[] words = loadWords();
 		//Your code goes here...
 		Scanner sc = new Scanner(System.in);
@@ -16,7 +16,11 @@ public class Solution {
 			System.out.println(word);
 		}
 	}
-
+	/**
+	 * Loads words.
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public static String[] loadWords() {
 		In in = new In("/Files/dictionary-algs4.txt");
 		String[] words = in.readAllStrings();
