@@ -1,6 +1,19 @@
 import java.util.Scanner;
-
-class Solution {
+/**
+ * Class for solution.
+ */
+public class Solution {
+	/**
+	 * Constructs the object.
+	 */
+	protected Solution() {
+		//default constructor.
+	}
+	/**
+	 * { function_description }.
+	 *
+	 * @param      args  The arguments
+	 */
 	public static void main(final String[] args) {
 		String[] words = loadWords();
 		//Your code goes here...

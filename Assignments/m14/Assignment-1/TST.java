@@ -21,7 +21,7 @@ public class TST<Value> {
         /**
          * { var_description }.
          */
-        private char c;                        // character
+        private char c;      // character
         /**
          * { item_description }.
          */
