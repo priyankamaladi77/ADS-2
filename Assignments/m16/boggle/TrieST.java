@@ -78,6 +78,10 @@ public class TrieST<Value> {
         if (x == null) return null;
         return (Value) x.val;
     }
+    public boolean hasPrefix(String key) {
+        Node node = get(root, key, 0);
+        return node != null;
+    }
 
     /**
      * Does this symbol table contain the given key?
@@ -168,7 +172,7 @@ public class TrieST<Value> {
         if (x.val != null) results.enqueue(prefix.toString());
         for (char c = 0; c < R; c++) {
             prefix.append(c);
-            collect(x.next[c - 65], prefix, results);
+            collect(x.next[c], prefix, results);
             prefix.deleteCharAt(prefix.length() - 1);
         }
     }
@@ -203,7 +207,7 @@ public class TrieST<Value> {
         }
         else {
             prefix.append(c);
-            collect(x.next[c - 65], prefix, pattern, results);
+            collect(x.next[c], prefix, pattern, results);
             prefix.deleteCharAt(prefix.length() - 1);
         }
     }
@@ -232,7 +236,7 @@ public class TrieST<Value> {
         if (x.val != null) length = d;
         if (d == query.length()) return length;
         char c = query.charAt(d);
-        return longestPrefixOf(x.next[c - 65], query, d+1, length);
+        return longestPrefixOf(x.next[c], query, d+1, length);
     }
 
     /**
@@ -253,56 +257,56 @@ public class TrieST<Value> {
         }
         else {
             char c = key.charAt(d);
-            x.next[c - 65] = delete(x.next[c - 65], key, d+1);
+            x.next[c] = delete(x.next[c], key, d+1);
         }
 
         // remove subtrie rooted at x if it is completely empty
         if (x.val != null) return x;
         for (int c = 0; c < R; c++)
-            if (x.next[c - 65] != null)
+            if (x.next[c] != null)
                 return x;
         return null;
     }
 
-//     /**
-//      * Unit tests the {@code TrieST} data type.
-//      *
-//      * @param args the command-line arguments
-//      */
-//     public static void main(String[] args) {
+    /**
+     * Unit tests the {@code TrieST} data type.
+     *
+     * @param args the command-line arguments
+     */
+    public static void main(String[] args) {
 
-//         // build symbol table from standard input
-//         TrieST<Integer> st = new TrieST<Integer>();
-//         for (int i = 0; !StdIn.isEmpty(); i++) {
-//             String key = StdIn.readString();
-//             st.put(key, i);
-//         }
+        // build symbol table from standard input
+        TrieST<Integer> st = new TrieST<Integer>();
+        for (int i = 0; !StdIn.isEmpty(); i++) {
+            String key = StdIn.readString();
+            st.put(key, i);
+        }
 
-//         // print results
-//         if (st.size() < 100) {
-//             StdOut.println("keys(\"\"):");
-//             for (String key : st.keys()) {
-//                 StdOut.println(key + " " + st.get(key));
-//             }
-//             StdOut.println();
-//         }
+        // print results
+        if (st.size() < 100) {
+            StdOut.println("keys(\"\"):");
+            for (String key : st.keys()) {
+                StdOut.println(key + " " + st.get(key));
+            }
+            StdOut.println();
+        }
 
-//         StdOut.println("longestPrefixOf(\"shellsort\"):");
-//         StdOut.println(st.longestPrefixOf("shellsort"));
-//         StdOut.println();
+        StdOut.println("longestPrefixOf(\"shellsort\"):");
+        StdOut.println(st.longestPrefixOf("shellsort"));
+        StdOut.println();
 
-//         StdOut.println("longestPrefixOf(\"quicksort\"):");
-//         StdOut.println(st.longestPrefixOf("quicksort"));
-//         StdOut.println();
+        StdOut.println("longestPrefixOf(\"quicksort\"):");
+        StdOut.println(st.longestPrefixOf("quicksort"));
+        StdOut.println();
 
-//         StdOut.println("keysWithPrefix(\"shor\"):");
-//         for (String s : st.keysWithPrefix("shor"))
-//             StdOut.println(s);
-//         StdOut.println();
+        StdOut.println("keysWithPrefix(\"shor\"):");
+        for (String s : st.keysWithPrefix("shor"))
+            StdOut.println(s);
+        StdOut.println();
 
-//         StdOut.println("keysThatMatch(\".he.l.\"):");
-//         for (String s : st.keysThatMatch(".he.l."))
-//             StdOut.println(s);
-//     }
-// }
+        StdOut.println("keysThatMatch(\".he.l.\"):");
+        for (String s : st.keysThatMatch(".he.l."))
+            StdOut.println(s);
+    }
 }
+

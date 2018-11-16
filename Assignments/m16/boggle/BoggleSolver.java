@@ -60,32 +60,31 @@ public class BoggleSolver {
 			}
 		}
 	private boolean isValidWord(String word) {
-		if (word.length() < 3) {
+		if (word.length() <= 2) {
 			return false;
 		}
 		return trie.contains(word);
 	}
 
 	public void dfs(BoggleBoard board, boolean[][] marked,
-		int rows, int cols, String word) {
-		// if (!trie.hasPrefix(word)) {
-		// 	return;
-		// }
+		int i, int j, String word) {
+		if (!trie.hasPrefix(word)) {
+			return;
+		}
 		if (isValidWord(word)) {
 			validWords.add(word);
 		}
-		marked[rows][cols] = true;
-		for (int i = rows - 1; i <= rows + 1 && i < rows; i++) {
-			for (int j = cols - 1; j <= cols + 1 && j < cols; j++) {
-				if (rows >= 0 && cols >= 0 && !marked[i][j] ) {
+		marked[i][j] = true;
+		for (int row = i - 1; row <= i + 1; i++) {
+			for (int col = j - 1; col <= j + 1; j++) {
+				if (row >= 0 && col >= 0 && row < board.rows() && col < board.cols() && !marked[i][j] ) {
 					String sequence = appendCharacter(word, board.getLetter(i, j));
 					dfs(board, marked, i, j, sequence);
 				}
 			}
 		}
-		marked[rows][cols] = false;
+		marked[i][j] = false;
 	}
-	
 	// Returns the score of the given word if it is in the dictionary, zero otherwise.
 	// (You can assume the word contains only the uppercase letters A through Z.)
 	public int scoreOf(String word) {
