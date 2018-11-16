@@ -66,8 +66,8 @@ public class BoggleSolver {
 			validWords.add(word);
 		}
 		marked[r][c] = true;
-		for (int i = r - 1; i < r + 1; i++) {
-			for (int j = c - 1; j < c + 1; j++) {
+		for (int i = r - 1; i <= r + 1; i++) {
+			for (int j = c - 1; j <= c + 1; j++) {
 				if (r >= 0 && c >= 0 && r < board.rows() && c < board.cols() && !marked[i][j] ) {
 					dfs(board, marked, i, j, word);
 					word = appendCharacter(word, board.getLetter(i, j));
