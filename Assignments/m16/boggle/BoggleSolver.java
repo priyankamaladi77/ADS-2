@@ -68,9 +68,9 @@ public class BoggleSolver {
 
 	public void dfs(BoggleBoard board, boolean[][] marked,
 		int i, int j, String word) {
-		// if (!trie.hasPrefix(word)) {
-		// 	return;
-		// }
+		if (!trie.hasPrefix(word)) {
+			return;
+		}
 		if (isValidWord(word)) {
 			validWords.add(word);
 		}
