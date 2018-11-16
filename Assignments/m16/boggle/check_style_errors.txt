@@ -601,17 +601,22 @@ Starting audit...
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m16\boggle\BoggleSolver.java:64:17: Parameter r should be final. [FinalParameters]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m16\boggle\BoggleSolver.java:64:24: Parameter c should be final. [FinalParameters]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m16\boggle\BoggleSolver.java:64:31: Parameter word should be final. [FinalParameters]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m16\boggle\BoggleSolver.java:71: Line is longer than 80 characters (found 113). [LineLength]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m16\boggle\BoggleSolver.java:71:110: ')' is preceded with whitespace. [ParenPad]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m16\boggle\BoggleSolver.java:71: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m16\boggle\BoggleSolver.java:71:83: ')' is preceded with whitespace. [ParenPad]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m16\boggle\BoggleSolver.java:73: Line is longer than 80 characters (found 92). [LineLength]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m16\boggle\BoggleSolver.java:79: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m16\boggle\BoggleSolver.java:80: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m16\boggle\BoggleSolver.java:81:9: Class 'BoggleSolver' looks like designed for extension (can be subclassed), but the method 'scoreOf' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BoggleSolver' final or making the method 'scoreOf' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m16\boggle\BoggleSolver.java:81:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m16\boggle\BoggleSolver.java:81:28: Parameter word should be final. [FinalParameters]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m16\boggle\BoggleSolver.java:82: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m16\boggle\BoggleSolver.java:79:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m16\boggle\BoggleSolver.java:79:42: Parameter row should be final. [FinalParameters]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m16\boggle\BoggleSolver.java:79:51: Parameter col should be final. [FinalParameters]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m16\boggle\BoggleSolver.java:79:60: Parameter board should be final. [FinalParameters]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m16\boggle\BoggleSolver.java:80: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m16\boggle\BoggleSolver.java:82: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m16\boggle\BoggleSolver.java:83: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m16\boggle\BoggleSolver.java:84:9: Class 'BoggleSolver' looks like designed for extension (can be subclassed), but the method 'scoreOf' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BoggleSolver' final or making the method 'scoreOf' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m16\boggle\BoggleSolver.java:84:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m16\boggle\BoggleSolver.java:84:28: Parameter word should be final. [FinalParameters]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m16\boggle\BoggleSolver.java:85: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 50 errors.
+Checkstyle ends with 55 errors.
 Starting audit...
 Audit done.
 Starting audit...

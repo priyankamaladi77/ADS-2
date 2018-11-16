@@ -68,13 +68,16 @@ public class BoggleSolver {
 		marked[r][c] = true;
 		for (int i = r - 1; i <= r + 1; i++) {
 			for (int j = c - 1; j <= c + 1; j++) {
-				if (i >= 0 && j >= 0 && r < board.rows() && c < board.cols() && !marked[i][j] ) {
+				if (isValidRowColumn(i, j, board) && !marked[i][j] ) {
 					dfs(board, marked, i, j, word);
 					word = appendCharacter(word, board.getLetter(i, j));
 				}
 			}
 		}
 		marked[r][c] = false;
+	}
+	private boolean isValidRowColumn(int row, int col, BoggleBoard board) {
+		return (row >= 0 && col >= 0 && row < board.rows() && col < board.cols());
 	}
 	// Returns the score of the given word if it is in the dictionary, zero otherwise.
 	// (You can assume the word contains only the uppercase letters A through Z.)
