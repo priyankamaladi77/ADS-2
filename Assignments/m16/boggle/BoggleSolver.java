@@ -37,6 +37,9 @@ public class BoggleSolver {
 	// @return     All valid words.
 	//
 	public Iterable<String> getAllValidWords(BoggleBoard board) {
+		if (board == null) {
+			throw new IllegalArgumentException("board is null");
+		}
 		marked = new boolean[board.rows()][board.cols()];
 		for (int i = 0; i < board.rows(); i++) {
 			for (int j = 0; j < board.cols(); j++) {
@@ -47,12 +50,15 @@ public class BoggleSolver {
 		return validWords;
 	}
 	private String appendCharacter(String sb, char character) {
-		if (character == 'Q') {
-			return sb + "QU";
-		} else {
-			return sb + character + "";
+		String str = sb;
+			if (character == 'Q') {
+				str += "QU";
+				return str;
+			} else {
+				str += character;
+				return str;
+			}
 		}
-	}
 	private boolean isValidWord(String word) {
 		if (word.length() < 3) {
 			return false;
@@ -62,23 +68,24 @@ public class BoggleSolver {
 
 	public void dfs(BoggleBoard board, boolean[][] marked,
 		int rows, int cols, String word) {
+		// if (!trie.hasPrefix(word)) {
+		// 	return;
+		// }
 		if (isValidWord(word)) {
 			validWords.add(word);
 		}
 		marked[rows][cols] = true;
-		for (int i = rows - 1; i <= rows + 1; i++) {
-			for (int j = cols - 1; j <= cols + 1; j++) {
-				if (isValidRowColumn(i, j, board) && !marked[i][j] ) {
-					dfs(board, marked, i, j, word);
-					word = appendCharacter(word, board.getLetter(i, j));
+		for (int i = rows - 1; i <= rows + 1 && i < rows; i++) {
+			for (int j = cols - 1; j <= cols + 1 && j < cols; j++) {
+				if (rows >= 0 && cols >= 0 && !marked[i][j] ) {
+					String sequence = appendCharacter(word, board.getLetter(i, j));
+					dfs(board, marked, i, j, sequence);
 				}
 			}
 		}
 		marked[rows][cols] = false;
 	}
-	private boolean isValidRowColumn(int row, int col, BoggleBoard board) {
-		return (row >= 0 && col >= 0 && row < board.rows() && col < board.cols());
-	}
+	
 	// Returns the score of the given word if it is in the dictionary, zero otherwise.
 	// (You can assume the word contains only the uppercase letters A through Z.)
 	public int scoreOf(String word) {

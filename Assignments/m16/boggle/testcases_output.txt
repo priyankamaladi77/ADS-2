@@ -3,21 +3,9 @@ Expected Output:
 Score = 33
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.isValidWord(BoggleSolver.java:60)
-	at BoggleSolver.dfs(BoggleSolver.java:65)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:44)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
@@ -26,21 +14,9 @@ Expected Output:
 Score = 84
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.isValidWord(BoggleSolver.java:60)
-	at BoggleSolver.dfs(BoggleSolver.java:65)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:44)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
@@ -49,21 +25,9 @@ Expected Output:
 Score = 1
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.isValidWord(BoggleSolver.java:60)
-	at BoggleSolver.dfs(BoggleSolver.java:65)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:44)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
@@ -72,21 +36,9 @@ Expected Output:
 Score = 2
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.isValidWord(BoggleSolver.java:60)
-	at BoggleSolver.dfs(BoggleSolver.java:65)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:44)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
@@ -95,21 +47,9 @@ Expected Output:
 Score = 3
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.isValidWord(BoggleSolver.java:60)
-	at BoggleSolver.dfs(BoggleSolver.java:65)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:44)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
@@ -118,21 +58,9 @@ Expected Output:
 Score = 1000
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.isValidWord(BoggleSolver.java:60)
-	at BoggleSolver.dfs(BoggleSolver.java:65)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:44)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
@@ -141,21 +69,9 @@ Expected Output:
 Score = 400
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.isValidWord(BoggleSolver.java:60)
-	at BoggleSolver.dfs(BoggleSolver.java:65)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:44)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
@@ -164,21 +80,9 @@ Expected Output:
 Score = 7
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.isValidWord(BoggleSolver.java:60)
-	at BoggleSolver.dfs(BoggleSolver.java:65)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:44)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
@@ -187,21 +91,9 @@ Expected Output:
 Score = 155
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.isValidWord(BoggleSolver.java:60)
-	at BoggleSolver.dfs(BoggleSolver.java:65)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:44)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
@@ -210,7 +102,9 @@ Expected Output:
 Score = 172
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
@@ -219,7 +113,9 @@ Expected Output:
 Score = 68
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
@@ -228,23 +124,9 @@ Expected Output:
 Score = 147
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.isValidWord(BoggleSolver.java:60)
-	at BoggleSolver.dfs(BoggleSolver.java:65)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:44)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
@@ -253,22 +135,9 @@ Expected Output:
 Score = 687
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.isValidWord(BoggleSolver.java:60)
-	at BoggleSolver.dfs(BoggleSolver.java:65)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:44)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
@@ -277,21 +146,9 @@ Expected Output:
 Score = 0
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.isValidWord(BoggleSolver.java:60)
-	at BoggleSolver.dfs(BoggleSolver.java:65)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:44)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
@@ -300,7 +157,9 @@ Expected Output:
 Score = 172
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
@@ -309,99 +168,9 @@ Expected Output:
 Score = 129
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.isValidWord(BoggleSolver.java:60)
-	at BoggleSolver.dfs(BoggleSolver.java:65)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:44)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
@@ -410,21 +179,9 @@ Expected Output:
 Score = 2
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.isValidWord(BoggleSolver.java:60)
-	at BoggleSolver.dfs(BoggleSolver.java:65)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:44)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
@@ -433,21 +190,9 @@ Expected Output:
 Score = 1
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.isValidWord(BoggleSolver.java:60)
-	at BoggleSolver.dfs(BoggleSolver.java:65)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:44)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
@@ -456,21 +201,9 @@ Expected Output:
 Score = 14
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.isValidWord(BoggleSolver.java:60)
-	at BoggleSolver.dfs(BoggleSolver.java:65)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:44)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
@@ -479,82 +212,9 @@ Expected Output:
 Score = 11
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.isValidWord(BoggleSolver.java:60)
-	at BoggleSolver.dfs(BoggleSolver.java:65)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:44)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
@@ -563,99 +223,9 @@ Expected Output:
 Score = 33
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.isValidWord(BoggleSolver.java:60)
-	at BoggleSolver.dfs(BoggleSolver.java:65)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:44)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
@@ -664,7 +234,9 @@ Expected Output:
 Score = 23
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
@@ -673,7 +245,9 @@ Expected Output:
 Score = 24
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
@@ -682,99 +256,9 @@ Expected Output:
 Score = 30
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.isValidWord(BoggleSolver.java:60)
-	at BoggleSolver.dfs(BoggleSolver.java:65)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:44)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
@@ -783,21 +267,9 @@ Expected Output:
 Score = 0
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.isValidWord(BoggleSolver.java:60)
-	at BoggleSolver.dfs(BoggleSolver.java:65)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:44)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
@@ -806,39 +278,9 @@ Expected Output:
 Score = 26539
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.isValidWord(BoggleSolver.java:60)
-	at BoggleSolver.dfs(BoggleSolver.java:65)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:44)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
@@ -847,39 +289,9 @@ Expected Output:
 Score = 19797
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.isValidWord(BoggleSolver.java:60)
-	at BoggleSolver.dfs(BoggleSolver.java:65)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:44)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
@@ -888,39 +300,9 @@ Expected Output:
 Score = 27325
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.isValidWord(BoggleSolver.java:60)
-	at BoggleSolver.dfs(BoggleSolver.java:65)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:44)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
@@ -929,39 +311,9 @@ Expected Output:
 Score = 32175
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.isValidWord(BoggleSolver.java:60)
-	at BoggleSolver.dfs(BoggleSolver.java:65)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.dfs(BoggleSolver.java:72)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:44)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BoggleSolver.dfs(BoggleSolver.java:80)
+	at BoggleSolver.getAllValidWords(BoggleSolver.java:47)
 	at Solution.main(Solution.java:32)
 ----------------------------------------
 
