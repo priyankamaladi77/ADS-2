@@ -61,20 +61,20 @@ public class BoggleSolver {
 	}
 
 	public void dfs(BoggleBoard board, boolean[][] marked,
-		int r, int c, String word) {
+		int rows, int cols, String word) {
 		if (isValidWord(word)) {
 			validWords.add(word);
 		}
-		marked[r][c] = true;
-		for (int i = r - 1; i <= r + 1; i++) {
-			for (int j = c - 1; j <= c + 1; j++) {
+		marked[rows][cols] = true;
+		for (int i = rows - 1; i <= rows + 1; i++) {
+			for (int j = cols - 1; j <= cols + 1; j++) {
 				if (isValidRowColumn(i, j, board) && !marked[i][j] ) {
 					dfs(board, marked, i, j, word);
 					word = appendCharacter(word, board.getLetter(i, j));
 				}
 			}
 		}
-		marked[r][c] = false;
+		marked[rows][cols] = false;
 	}
 	private boolean isValidRowColumn(int row, int col, BoggleBoard board) {
 		return (row >= 0 && col >= 0 && row < board.rows() && col < board.cols());
