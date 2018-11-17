@@ -88,32 +88,31 @@ public class Solution {
 	public static BinarySearchST<String, Integer> loadDictionary(String file) {
 		BinarySearchST<String, Integer>  st = new BinarySearchST<String, Integer>();
 		// your code goes here
-		for (String words : toReadFile(file)) {
-			words = words.toLowerCase();
-			if (st.contains(words)) { 
-				st.put(words, st.get(words) + 1);
+		for (String word : toReadFile(file)) {
+			word = word.toLowerCase();
+			if (st.contains(word)) { 
+				st.put(word, st.get(word) + 1);
 			}
 			else { 
-				st.put(words, 1);
+				st.put(word, 1);
 			}
 		}
 		return st;
 	}
 }
 class T9 {
-
+	TST ternary = new TST();
 	public T9(BinarySearchST<String, Integer> st) {
 		// your code goes here
+		for (String word : st.keys()) {
+            ternary.put(word, st.get(word));
+        }
 	}
 
 	// get all the prefixes that match with given prefix.
 	public Iterable<String> getAllWords(String prefix) {
 		// your code goes here
-		// TST<Integer> tst = new TST<Integer>();
-  //       for (int i = 0; i < words.length; i++) {
-  //           tst.put(words[i], i);
-  //       }
-		return null;
+		return ternary.keysWithPrefix(prefix);
 	}
 
 	public Iterable<String> potentialWords(String t9Signature) {
