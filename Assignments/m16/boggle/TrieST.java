@@ -1,50 +1,3 @@
-/******************************************************************************
- *  Compilation:  javac TrieST.java
- *  Execution:    java TrieST < words.txt
- *  Dependencies: StdIn.java
- *  Data files:   https://algs4.cs.princeton.edu/52trie/shellsST.txt
- *
- *  A string symbol table for extended ASCII strings, implemented
- *  using a 256-way trie.
- *
- *  % java TrieST < shellsST.txt 
- *  by 4
- *  sea 6
- *  sells 1
- *  she 0
- *  shells 3
- *  shore 7
- *  the 5
- *
- ******************************************************************************/
-
-/**
- *  The {@code TrieST} class represents an symbol table of key-value
- *  pairs, with string keys and generic values.
- *  It supports the usual <em>put</em>, <em>get</em>, <em>contains</em>,
- *  <em>delete</em>, <em>size</em>, and <em>is-empty</em> methods.
- *  It also provides character-based methods for finding the string
- *  in the symbol table that is the <em>longest prefix</em> of a given prefix,
- *  finding all strings in the symbol table that <em>start with</em> a given prefix,
- *  and finding all strings in the symbol table that <em>match</em> a given pattern.
- *  A symbol table implements the <em>associative array</em> abstraction:
- *  when associating a value with a key that is already in the symbol table,
- *  the convention is to replace the old value with the new value.
- *  Unlike {@link java.util.Map}, this class uses the convention that
- *  values cannot be {@code null}—setting the
- *  value associated with a key to {@code null} is equivalent to deleting the key
- *  from the symbol table.
- *  <p>
- *  This implementation uses a 256-way trie.
- *  The <em>put</em>, <em>contains</em>, <em>delete</em>, and
- *  <em>longest prefix</em> operations take time proportional to the length
- *  of the key (in the worst case). Construction takes constant time.
- *  The <em>size</em>, and <em>is-empty</em> operations take constant time.
- *  Construction takes constant time.
- *  <p>
- *  For additional documentation, see <a href="https://algs4.cs.princeton.edu/52trie">Section 5.2</a> of
- *  <i>Algorithms, 4th Edition</i> by Robert Sedgewick and Kevin Wayne.
- */
 public class TrieST<Value> {
     private static final int R = 26;        // extended ASCII
 
@@ -58,9 +11,9 @@ public class TrieST<Value> {
         private Node[] next = new Node[R];
     }
 
-   /**
-     * Initializes an empty string symbol table.
-     */
+    /**
+      * Initializes an empty string symbol table.
+      */
     public TrieST() {
     }
 
@@ -77,10 +30,6 @@ public class TrieST<Value> {
         Node x = get(root, key, 0);
         if (x == null) return null;
         return (Value) x.val;
-    }
-    public boolean hasPrefix(String key) {
-        Node node = get(root, key, 0);
-        return node != null;
     }
 
     /**
@@ -99,7 +48,18 @@ public class TrieST<Value> {
         if (x == null) return null;
         if (d == key.length()) return x;
         char c = key.charAt(d);
-        return get(x.next[c - 65], key, d+1);
+        return get(x.next[c - 65], key, d + 1);
+    }
+    /**
+     * Determines if it has prefix.
+     *
+     * @param      key   The key
+     *
+     * @return     True if has prefix, False otherwise.
+     */
+    public boolean hasPrefix(String key) {
+        Node node = get(root, key, 0);
+        return node != null;
     }
 
     /**
@@ -124,7 +84,7 @@ public class TrieST<Value> {
             return x;
         }
         char c = key.charAt(d);
-        x.next[c - 65] = put(x.next[c - 65], key, val, d+1);
+        x.next[c - 65] = put(x.next[c - 65], key, val, d + 1);
         return x;
     }
 
@@ -204,8 +164,7 @@ public class TrieST<Value> {
                 collect(x.next[ch], prefix, pattern, results);
                 prefix.deleteCharAt(prefix.length() - 1);
             }
-        }
-        else {
+        } else {
             prefix.append(c);
             collect(x.next[c], prefix, pattern, results);
             prefix.deleteCharAt(prefix.length() - 1);
@@ -236,7 +195,7 @@ public class TrieST<Value> {
         if (x.val != null) length = d;
         if (d == query.length()) return length;
         char c = query.charAt(d);
-        return longestPrefixOf(x.next[c], query, d+1, length);
+        return longestPrefixOf(x.next[c], query, d + 1, length);
     }
 
     /**
@@ -254,10 +213,9 @@ public class TrieST<Value> {
         if (d == key.length()) {
             if (x.val != null) n--;
             x.val = null;
-        }
-        else {
+        } else {
             char c = key.charAt(d);
-            x.next[c] = delete(x.next[c], key, d+1);
+            x.next[c] = delete(x.next[c], key, d + 1);
         }
 
         // remove subtrie rooted at x if it is completely empty
@@ -268,45 +226,5 @@ public class TrieST<Value> {
         return null;
     }
 
-    /**
-     * Unit tests the {@code TrieST} data type.
-     *
-     * @param args the command-line arguments
-     */
-    public static void main(String[] args) {
 
-        // build symbol table from standard input
-        TrieST<Integer> st = new TrieST<Integer>();
-        for (int i = 0; !StdIn.isEmpty(); i++) {
-            String key = StdIn.readString();
-            st.put(key, i);
-        }
-
-        // print results
-        if (st.size() < 100) {
-            StdOut.println("keys(\"\"):");
-            for (String key : st.keys()) {
-                StdOut.println(key + " " + st.get(key));
-            }
-            StdOut.println();
-        }
-
-        StdOut.println("longestPrefixOf(\"shellsort\"):");
-        StdOut.println(st.longestPrefixOf("shellsort"));
-        StdOut.println();
-
-        StdOut.println("longestPrefixOf(\"quicksort\"):");
-        StdOut.println(st.longestPrefixOf("quicksort"));
-        StdOut.println();
-
-        StdOut.println("keysWithPrefix(\"shor\"):");
-        for (String s : st.keysWithPrefix("shor"))
-            StdOut.println(s);
-        StdOut.println();
-
-        StdOut.println("keysThatMatch(\".he.l.\"):");
-        for (String s : st.keysThatMatch(".he.l."))
-            StdOut.println(s);
-    }
 }
-
