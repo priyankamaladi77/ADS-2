@@ -561,9 +561,8 @@ Audit done.
 Checkstyle ends with 465 errors.
 Starting audit...
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m16\boggle\BoggleSolver.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m16\boggle\BoggleSolver.java:14:29: Name 'Trie' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
 Audit done.
-Checkstyle ends with 2 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 Audit done.
 Starting audit...

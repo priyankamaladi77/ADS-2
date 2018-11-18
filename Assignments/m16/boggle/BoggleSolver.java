@@ -11,7 +11,7 @@ public class BoggleSolver {
     /**
     *object creation for trieST.
     */
-    private TrieST<Integer> Trie;
+    private TrieST<Integer> trie;
     /**
      * set of valid words.
      */
@@ -26,7 +26,7 @@ public class BoggleSolver {
      * @param      dictionary  The dictionary
      */
     public BoggleSolver(final String[] dictionary) {
-        Trie = new TrieST<Integer>();
+        trie = new TrieST<Integer>();
         validWords = new TreeSet<String>();
         final int three = 3;
         final int five = 5;
@@ -35,9 +35,9 @@ public class BoggleSolver {
         int[] points = {0, 0, 0, 1, 1, 2, three, five, eleven};
         for (String word : dictionary) {
             if (word.length() >= eight) {
-                Trie.put(word, eleven);
+                trie.put(word, eleven);
             } else {
-                Trie.put(word, points[word.length()]);
+                trie.put(word, points[word.length()]);
             }
         }
     }
@@ -92,7 +92,7 @@ public class BoggleSolver {
         if (word.length() < three1) {
             return false;
         }
-        return Trie.contains(word);
+        return trie.contains(word);
     }
     /**
      * dfs implementation to find the words.
@@ -105,7 +105,7 @@ public class BoggleSolver {
      */
     public void dfs(final BoggleBoard board, final boolean[][] marked1,
         final int rows, final int cols, final String word) {
-        if (!Trie.hasPrefix(word)) {
+        if (!trie.hasPrefix(word)) {
             return;
         }
 
@@ -155,8 +155,8 @@ public class BoggleSolver {
         if (word == null) {
             return 0;
         }
-        if (Trie.contains(word)) {
-            return Trie.get(word);
+        if (trie.contains(word)) {
+            return trie.get(word);
         }
         return 0;
     }
