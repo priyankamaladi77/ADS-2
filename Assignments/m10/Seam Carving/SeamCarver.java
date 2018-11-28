@@ -197,28 +197,34 @@ public class SeamCarver {
         }
         return path;
     }
-    /**
-     * // sequence of indices for horizontal seam.
+    // sequence of indices for horizontal seam
+    /**.
+     * { Horizontal Seam of the Picture }
+     * Complexity is O(w * h).
+     * w - width h - height.
      *
-     * @return  // sequence of indices for horizontal seam.
+     * @return     { description_of_the_return_value }
      */
     public int[] findHorizontalSeam() {
         double[][] transposeEnergies = transposeGrid(initEnergies());
         return minVerticalPath(transposeEnergies);
     }
-   /**
-    *  // sequence of indices for vertical seam.
-    *
-    * @return   // sequence of indices for vertical seam.
-    */
+   // sequence of indices for vertical seam
+    /** { Vertical Seam of the Picture }
+     *  Time Complexity is O(w * h).
+     * w - width h - height.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int[] findVerticalSeam() {
         double[][] normalEnergies = initEnergies();
         return minVerticalPath(normalEnergies);
     }
-    /**
-     * Removes a horizontal seam.
+    /**.
+     * Removes a horizontal seam from picture.
+     *  Time Complexity is O(w * h).
      *
-     * @param      a int array.
+     * @param      a     { parameter_description }
      */
     public void removeHorizontalSeam(final int[] a) {
         if (height() <= 1 || !isValid(a, width(), height() - 1)) {
@@ -239,10 +245,10 @@ public class SeamCarver {
         this.picture = pic;
     }
 
-    /**
-     * Removes a vertical seam.
-     *
-     * @param      a  int array.
+    /**.
+     * remove vertical seam from picture.
+     * Time Complexity is O(w * h).
+     * @param      a     { parameter_description }
      */
     public void removeVerticalSeam(final int[] a) {
         if (width() <= 1 || !isValid(a, height(), width())) {
@@ -264,7 +270,15 @@ public class SeamCarver {
         this.picture = pic;
     }
 
-    // return false if two consecutive entries differ by more than 1
+    /**
+     * Determines if valid.
+     * return false if two consecutive entries differ by more than 1
+     * @param      a      { parameter_description }
+     * @param      len    The length
+     * @param      range  The range
+     *
+     * @return     True if valid, False otherwise.
+     */
     private boolean isValid(final int[] a, final int len, final int range) {
         if (a == null) {
             return false;

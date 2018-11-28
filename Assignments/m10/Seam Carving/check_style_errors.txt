@@ -225,11 +225,10 @@ Starting audit...
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:20:37: 'picture' hides a field. [HiddenField]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:67: Line is longer than 80 characters (found 85). [LineLength]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:75: First sentence should end with a period. [JavadocStyle]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:268:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:276: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:276:50: '||' should be on a new line. [OperatorWrap]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:290: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:290:50: '||' should be on a new line. [OperatorWrap]
 Audit done.
-Checkstyle ends with 7 errors.
+Checkstyle ends with 6 errors.
 Starting audit...
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\ShowEnergy.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] F:\msitp\ADS - 2\ADS-2\Assignments\m10\Seam Carving\ShowEnergy.java:5: Line has trailing spaces. [RegexpSingleline]
