@@ -35,7 +35,8 @@ public class DirectedCycle {
     }
     /**
      * { depth first search }.
-     * {Time complexity is O(E)}
+     *  The time complexity is O(E + V) e refers to no of
+     * edges, v refers to no.of vertices.
      * @param      g     { graph }
      * @param      v     { vertex }
      */
