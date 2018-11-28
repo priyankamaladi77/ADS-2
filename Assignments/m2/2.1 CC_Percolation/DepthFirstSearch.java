@@ -29,7 +29,7 @@ class DepthFirstPaths {
     }
     /**
      * { dfs }.
-     *
+     * The time complexity is O(E).
      * @param      g    { graph }
      * @param      v     { vertex }
      */

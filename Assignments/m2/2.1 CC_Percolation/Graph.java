@@ -131,7 +131,7 @@ public class Graph {
             }
             return false;
         }
-        /**.
+        /**
          * { next }
          * Time complexity is constant.
          * @return returns w.
