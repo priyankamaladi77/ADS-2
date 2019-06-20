@@ -49,7 +49,7 @@ public class EdgeWeightedGraph {
 
     /**
      * Adds the undirected edge {@code e} to this edge-weighted graph.
-     *
+     * The time complexity is constant.
      * @param  e the edge
      */
     public void addEdge(final Edge e) {

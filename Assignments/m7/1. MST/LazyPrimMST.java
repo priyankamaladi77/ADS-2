@@ -20,7 +20,7 @@ public class LazyPrimMST {
      */
     private MinPQ<Edge> pq;
 
-    /**
+    /** The time compelxity is ElogV.
      * Compute a minimum spanning tree (or forest).
      * of an edge-weighted graph.
      * @param g the edge-weighted graph
@@ -38,7 +38,7 @@ public class LazyPrimMST {
 
     /**
      * {Private Accessor method of prim}.
-     *
+     * The time complexity is ElogV.
      * @param      g     {EdgeWeightedGraph}
      * @param      s     {Vertex}
      */
@@ -66,7 +66,7 @@ public class LazyPrimMST {
     /**
      * {add all edges e incident to v onto pq if the.
      * other endpoint has not yet been scanned}
-     *
+     * The time complexity is O(N).
      * @param      g     {EdgeWeightedGraph}
      * @param      v     {Vertex}
      */
@@ -80,7 +80,7 @@ public class LazyPrimMST {
         }
     }
 
-    /**
+    /** The time complexity is O(E).
      * Returns the edges in a minimum spanning tree (or forest).
      * @return the edges in a minimum spanning tree (or forest)
      *  as an iterable of edges
@@ -89,7 +89,7 @@ public class LazyPrimMST {
         return mst;
     }
 
-    /**
+    /** The time complexity is constant.
      * @return the sum of the edge weights.
      * in a minimum spanning tree (or forest)
      */
